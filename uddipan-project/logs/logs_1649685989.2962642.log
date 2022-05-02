@@ -1,0 +1,77 @@
+2022-04-11 14:06:29.495 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/usr/local/lib/python3.9/dist-packages/mysql/__init__.py'>
+2022-04-11 14:07:02.719 | DEBUG    | main:startScrapperSchdular:37 - startScrapper
+2022-04-11 14:07:02.764 | ERROR    | main:Error:55 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-04-11 14:07:02.764 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-04-11 14:09:21.502 | ERROR    | main:Error:55 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-04-11 14:09:21.503 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-04-11 14:09:23.541 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 14:10:20.812 | ERROR    | main:Error:55 - 
+ HTTPException Error : 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application. 
+
+2022-04-11 14:10:20.812 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-04-11 14:17:55.428 | ERROR    | main:Error:55 - 
+ HTTPException Error : 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application. 
+
+2022-04-11 14:17:55.429 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-04-11 15:03:43.857 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 15:03:44.404 | ERROR    | main:Error:55 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-04-11 15:03:44.404 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-04-11 15:04:23.726 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 15:04:29.746 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 15:05:22.003 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 15:06:24.998 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 15:06:29.120 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 15:09:46.541 | ERROR    | main:Error:55 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-04-11 15:09:46.542 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-04-11 15:10:11.081 | ERROR    | main:Error:55 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-04-11 15:10:11.082 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-04-11 15:10:17.430 | ERROR    | main:Error:55 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-04-11 15:10:17.430 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-04-11 15:10:38.544 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-04-11 16:33:00.135 | ERROR    | main:error:67 - 
+Error(name, code)->-----------name Bad Request   code 400
+

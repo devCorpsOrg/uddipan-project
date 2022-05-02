@@ -1,0 +1,7 @@
+2022-04-14 19:23:49.958 | ERROR    | main:Error:56 - 
+ HTTPException Error : 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application. 
+
+2022-04-14 19:23:49.960 | ERROR    | main:error:68 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-04-15 05:20:14.208 | DEBUG    | main:startScrapper:47 - startScrapper
