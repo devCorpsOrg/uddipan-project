@@ -1,0 +1,2 @@
+2022-04-16 08:20:37.082 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/usr/local/lib/python3.9/dist-packages/mysql/__init__.py'>
+2022-04-16 08:24:26.630 | DEBUG    | main:startScrapperSchdular:38 - startScrapper

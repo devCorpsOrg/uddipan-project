@@ -1,0 +1,26 @@
+2022-08-16 21:09:39.086 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/home/gcpsshkey/.local/lib/python3.6/site-packages/mysql/__init__.py'>
+2022-08-16 21:10:12.357 | DEBUG    | main:startScrapperSchdular:38 - startScrapper
+2022-08-16 21:35:22.547 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-08-16 21:35:23.762 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-08-16 21:37:13.724 | ERROR    | main:Error:58 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-08-16 21:37:13.724 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-08-16 21:55:11.653 | ERROR    | main:Error:58 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-08-16 21:55:11.654 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-08-17 08:24:22.270 | ERROR    | main:Error:58 - 
+ HTTPException Error : 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application. 
+
+2022-08-17 08:24:22.276 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
