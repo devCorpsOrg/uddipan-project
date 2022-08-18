@@ -8,7 +8,7 @@ import openpyxl
 # To Store Scraped Data in MYSQL Database (Remote Database) -
 
 #1
-engine = create_engine("mysql+pymysql://dev:devAverps3985$$@34.142.195.183/uddipan?charset=utf8mb4")
+engine = create_engine("mysql+pymysql://averps:Dev@averps3985@128.199.122.126/uddipan?charset=utf8mb4")
 df = pd.read_json("finalData.json")
 df.to_sql("Product_prices", con=engine, if_exists="replace", index=False)
  
