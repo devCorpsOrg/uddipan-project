@@ -1,2 +1,0 @@
-2022-08-13 13:54:28.284 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/home/gcpsshkey/.local/lib/python3.6/site-packages/mysql/__init__.py'>
-2022-08-13 13:54:28.543 | DEBUG    | main:startScrapperSchdular:38 - startScrapper

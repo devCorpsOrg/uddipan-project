@@ -1,8 +1,0 @@
-2022-04-14 05:16:12.066 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/usr/local/lib/python3.9/dist-packages/mysql/__init__.py'>
-2022-04-14 05:16:15.815 | DEBUG    | main:startScrapperSchdular:38 - startScrapper
-2022-04-14 05:16:15.864 | ERROR    | main:Error:56 - 
- HTTPException Error : 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application. 
-
-2022-04-14 05:16:15.865 | ERROR    | main:error:68 - 
-Error(name, code)->-----------name Internal Server Error   code 500
-
