@@ -32,17 +32,26 @@ class db:
         if query is None:
             query = {}
         if search:
-            if query['flag'] :
-                query = f"SELECT * FROM `{table}` WHERE `{query['query']}` LIKE '%{query['value']}%' OR '{query['value']}%' OR '%{query['value']}'"
-            else :
-                query = f"SELECT * FROM `{table}`"
-            cursor.execute(query)
-            try:
-                self.mydb.commit()
-            except Exception as e:
-                logger.error(f"error 55 : {e}")
-                return []
-            return cursor.fetchall()
+            productName = query['value']
+            productName = productName.replace("'", "")
+            productNameList = productName.split(" ")
+            data = []
+            for productName in productNameList:
+                if query['flag'] :
+                    query = f"SELECT * FROM `{table}` WHERE `{query['query']}` LIKE '%{productName}%' OR '{productName}%' OR '%{productName}'"
+                else :
+                    query = f"SELECT * FROM `{table}`"
+                cursor.execute(query)
+                try:
+                    self.mydb.commit()
+                except Exception as e:
+                    logger.error(f"error 55 : {e}")
+                    return []
+
+                info = cursor.fetchall()
+                data.append(info)
+                clean_data = [i for n, i in enumerate(data) if i not in data[n + 1:]]
+                return clean_data
         else:
             query = f"SELECT * FROM `{table}` WHERE 1"
             cursor.execute(query)
