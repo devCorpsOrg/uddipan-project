@@ -32,26 +32,6 @@ create()
 db_connection = db()
 
 
-#def startScrapperSchdular():
-#    print(db_connection)
-#    print ("test")
-#    logger.debug("startScrapper")
-#    scheduler1 = BackgroundScheduler(job_defaults={'max_instances': config["MaxNInstance"]})
-#    # scheduler1.add_job(id='Scheduled task', func=prr,minute='46', trigger="interval",)
-#    scheduler1.add_job(id='Scheduled task', func=startScrapper, seconds=60*60*24, trigger="interval")
-#    scheduler1.start()
-#    atexit.register(lambda: scheduler1.shutdown())
-#    print("Scrapper tarted Again !!!!!")
-#
-#
-#def startScrapper():
-#    logger.debug("startScrapper")
-#    bashCommand = "python3 main_linux.py"
-#    os.system(bashCommand)
-#
-#
-#app.before_first_request(startScrapperSchdular)
-
 
 @app.errorhandler(werkzeug.exceptions.HTTPException)  # werkzeug error handler
 def Error(err):
