@@ -1950,7 +1950,7 @@ def site_1():
         age_verification_1(driver)
     except:
         print("Age verification failed")
-    for lnk2 in uniqueLnks_1[0:5]:
+    for lnk2 in uniqueLnks_1:
         get_info_1(lnk2, driver)
         print("Final Data :- ", finalData_1[-1])
         print("No of Product Info. :- ", len(finalData_1))
@@ -1973,7 +1973,7 @@ def site_2():
         age_verification_2(driver)
     except:
         print("Age verification  failed")
-    for lnk2 in uniqueLnks_2[0:5]:
+    for lnk2 in uniqueLnks_2:
         get_info_2(lnk2, driver)
         print("Final Data :- ", finalData_2[-1])
         print("No of Product Info. :- ", len(finalData_2))
@@ -1996,7 +1996,7 @@ def site_3():
         age_verification_3(driver)
     except:
         print("Age verification  failed")
-    for lnk2 in uniqueLnks_3[0:5]:
+    for lnk2 in uniqueLnks_3:
         get_info_3(lnk2, driver)
         print("Final Data :- ", finalData_3[-1])
         print("No of Product Info. :- ", len(finalData_3))
@@ -2019,7 +2019,7 @@ def site_4():
         age_verification_4(driver)
     except:
         print("Age verification  failed")
-    for lnk2 in uniqueLnks_4[0:5]:
+    for lnk2 in uniqueLnks_4:
         get_info_4(lnk2, driver)
         print("Final Data :- ", finalData_4[-1])
         print("No of Product Info. :- ", len(finalData_4))
@@ -2038,7 +2038,7 @@ def site_5():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_5[0:5]:
+    for lnk2 in uniqueLnks_5:
         get_info_5(lnk2, driver)
         print("Final Data :- ", finalData_5[-1])
         print("No of Product Info. :- ", len(finalData_5))
@@ -2057,7 +2057,7 @@ def site_6():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_6[0:5]:
+    for lnk2 in uniqueLnks_6:
         r = requests.get(lnk2)
         stat_code = r.status_code
         if stat_code == 200:
@@ -2082,7 +2082,7 @@ def site_7():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_7[0:5]:
+    for lnk2 in uniqueLnks_7:
         get_info_7(lnk2, driver)
         print("Final Data :- ", finalData_7[-1])
         print("No of Product Info. :- ", len(finalData_7))
@@ -2101,7 +2101,7 @@ def site_8():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_8[0:5]:
+    for lnk2 in uniqueLnks_8:
         get_info_8(lnk2, driver)
         print("Final Data :- ", finalData_8[-1])
         print("No of Product Info. :- ", len(finalData_8))
@@ -2120,7 +2120,7 @@ def site_9():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_9[0:5]:
+    for lnk2 in uniqueLnks_9:
         get_info_9(lnk2, driver)
         print("Final Data :- ", finalData_9[-1])
         print("No of Product Info. :- ", len(finalData_9))
@@ -2140,7 +2140,7 @@ def site_10():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_10[0:5]:
+    for lnk2 in uniqueLnks_10:
         get_info_10(lnk2, driver)
         print("Final Data :- ", finalData_10[-1])
         print("No of Product Info. :- ", len(finalData_10))
@@ -2159,7 +2159,7 @@ def site_11():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_11[0:5]:
+    for lnk2 in uniqueLnks_11:
         get_info_11(lnk2, driver)
         print("Final Data :- ", finalData_11[-1])
         print("No of Product Info. :- ", len(finalData_11))
@@ -2179,7 +2179,7 @@ def site_12():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_12[0:5]:
+    for lnk2 in uniqueLnks_12:
         get_info_12(lnk2, driver)
         print("Final Data :- ", finalData_12[-1])
         print("No of Product Info. :- ", len(finalData_12))
@@ -2203,7 +2203,7 @@ def site_13():
         age_verification_13(driver)
     except:
         print("Age verification failed !")
-    for lnk2 in uniqueLnks_13[0:5]:
+    for lnk2 in uniqueLnks_13:
         get_info_13(lnk2, driver)
         print("Final Data :- ", finalData_13[-1])
         print("No of Product Info. :- ", len(finalData_13))
@@ -2222,7 +2222,7 @@ def site_14():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_14[0:5]:
+    for lnk2 in uniqueLnks_14:
         get_info_14(lnk2, driver)
         print("Final Data :- ", finalData_14[-1])
         print("No of Product Info. :- ", len(finalData_14))
@@ -2245,7 +2245,7 @@ def site_15():
         age_verification_15(driver)
     except:
         print("Age verification failed !")
-    for lnk2 in uniqueLnks_15[0:5]:
+    for lnk2 in uniqueLnks_15:
         get_info_15(lnk2, driver)
         print("Final Data :- ", finalData_15[-1])
         print("No of Product Info. :- ", len(finalData_15))
@@ -2268,7 +2268,7 @@ def site_16():
         age_verification_16(driver)
     except:
         print("Age verification failed !")
-    for lnk2 in uniqueLnks_16[0:5]:
+    for lnk2 in uniqueLnks_16:
         get_info_16(lnk2, driver)
         print("Final Data :- ", finalData_16[-1])
         print("No of Product Info. :- ", len(finalData_16))
@@ -2292,7 +2292,7 @@ def site_17():
         age_verification_17(driver)
     except:
         print("Age verification failed !")
-    for lnk2 in uniqueLnks_17[0:5]:
+    for lnk2 in uniqueLnks_17:
         get_info_17(lnk2, driver)
         print("Final Data :- ", finalData_17[-1])
         print("No of Product Info. :- ", len(finalData_17))
@@ -2312,7 +2312,7 @@ def site_18():
     options.add_argument('--no-sandbox')
 
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
-    for lnk2 in uniqueLnks_18[0:5]:
+    for lnk2 in uniqueLnks_18:
         get_info_18(lnk2, driver)
         print("Final Data :- ", finalData_18[-1])
         print("No of Product Info. :- ", len(finalData_18))
@@ -2335,7 +2335,7 @@ def site_19():
         age_verification_19(driver)
     except:
         print("Age verification failed !")
-    for lnk2 in uniqueLnks_19[0:5]:
+    for lnk2 in uniqueLnks_19:
         get_info_19(lnk2, driver)
         print("Final Data :- ", finalData_19[-1])
         print("No of Product Info. :- ", len(finalData_19))
