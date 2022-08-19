@@ -5,7 +5,7 @@
     "Quantity": 1,
     "Volume": 33.0,
     "Category": "",
-    "Price": "110.00",
+    "Price": "",
     "Product Link": "https://cellarbration.com.sg/peroni-nastro-azzuro-beer-bottle-24btls-x-330ml.html"
   },
   {
@@ -13,7 +13,7 @@
     "Product Name": "Penfolds Bin 28 Kalimna Shiraz",
     "Quantity": 1,
     "Volume": 75.0,
-    "Category": "Red Wine",
+    "Category": "",
     "Price": "",
     "Product Link": "https://cellarbration.com.sg/all-wines/country/penfolds-bin-28-kalimna-shiraz.html"
   },
@@ -23,23 +23,23 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "132.00",
+    "Price": "",
     "Product Link": "https://cellarbration.com.sg/ledaig-2011-very-cloudy-s-v-70cl-40.html"
   },
   {
     "Site": "Cellarbration",
     "Product Name": "Tarsier Southeast Asian Dry Gin",
     "Quantity": 1,
-    "Volume": 70.0,
-    "Category": "Gin",
-    "Price": "79.00",
+    "Volume": "",
+    "Category": "",
+    "Price": "",
     "Product Link": "https://cellarbration.com.sg/tarsier-gin.html"
   },
   {
     "Site": "Cellarbration",
     "Product Name": "Famous Grouse Blended Whisky",
     "Quantity": 1,
-    "Volume": 70.0,
+    "Volume": "",
     "Category": "",
     "Price": "",
     "Product Link": "https://cellarbration.com.sg/famous-grouse-blended-whisky.html"

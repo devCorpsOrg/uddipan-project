@@ -1,0 +1,5 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+insights.nyc3.cdn.digitaloceanspaces.com	0	1	1660744854	15552000
+repos-droplet.digitalocean.com	0	1	1660889868	15552000

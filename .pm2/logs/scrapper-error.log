@@ -1,0 +1,712 @@
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+Exception in thread Thread-1 (site_1):
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+Traceback (most recent call last):
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 2362, in <module>
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+    x.join()
+  File "/usr/lib/python3.10/threading.py", line 1089, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1109, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 1954, in site_1
+    get_info_1(lnk2, driver)
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 161, in get_info_1
+    driver.get(url)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 440, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 426, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/remote_connection.py", line 344, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/remote_connection.py", line 366, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+Traceback (most recent call last):
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 2362, in <module>
+    x.join()
+  File "/usr/lib/python3.10/threading.py", line 1089, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1109, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+Traceback (most recent call last):
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 2362, in <module>
+    x.join()
+  File "/usr/lib/python3.10/threading.py", line 1089, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1109, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+Traceback (most recent call last):
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 2362, in <module>
+Exception in thread Thread-5 (site_5):
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+Exception in thread Thread-1 (site_1):
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 1954, in site_1
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    get_info_1(lnk2, driver)
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 161, in get_info_1
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 2042, in site_5
+    x.join()
+  File "/usr/lib/python3.10/threading.py", line 1089, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1109, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
+    get_info_5(lnk2, driver)
+  File "/root/scraper-server/uddipan/uddipan-project/main_linux.py", line 485, in get_info_5
+    driver.get(url)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 440, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 426, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/remote_connection.py", line 344, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/remote_connection.py", line 366, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 755, in urlopen
+        retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    driver.get(url)
+six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 440, in get
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/webdriver.py", line 426, in execute
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+    response = self.command_executor.execute(driver_command, params)
+  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/remote_connection.py", line 344, in execute
+        return self._request(command_info[0], url, body=data)
+response.begin()  File "/usr/local/lib/python3.10/dist-packages/selenium/webdriver/remote/remote_connection.py", line 366, in _request
+
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+        response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 170, in request_encode_body
+version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    return self.urlopen(method, url, **extra_kw)    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1948: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1994: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:1971: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2084: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2103: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2017: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2122: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2059: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2142: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2161: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2181: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2040: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2201: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2224: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2243: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2266: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2290: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2314: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+/root/scraper-server/uddipan/uddipan-project/main_linux.py:2333: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
