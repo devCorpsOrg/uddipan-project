@@ -1,0 +1,155 @@
+2022-08-18T13:00:33: PM2 log: ===============================================================================
+2022-08-18T13:00:33: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2022-08-18T13:00:33: PM2 log: Time                 : Thu Aug 18 2022 13:00:33 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:00:33: PM2 log: PM2 version          : 5.2.0
+2022-08-18T13:00:33: PM2 log: Node.js version      : 12.22.9
+2022-08-18T13:00:33: PM2 log: Current arch         : x64
+2022-08-18T13:00:33: PM2 log: PM2 home             : /root/.pm2
+2022-08-18T13:00:33: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2022-08-18T13:00:33: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2022-08-18T13:00:33: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2022-08-18T13:00:33: PM2 log: Application log path : /root/.pm2/logs
+2022-08-18T13:00:33: PM2 log: Worker Interval      : 30000
+2022-08-18T13:00:33: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2022-08-18T13:00:33: PM2 log: Concurrent actions   : 2
+2022-08-18T13:00:33: PM2 log: SIGTERM timeout      : 1600
+2022-08-18T13:00:33: PM2 log: ===============================================================================
+2022-08-18T13:00:37: PM2 log: PM2 successfully stopped
+2022-08-18T13:00:38: PM2 log: ===============================================================================
+2022-08-18T13:00:38: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2022-08-18T13:00:38: PM2 log: Time                 : Thu Aug 18 2022 13:00:38 GMT+0000 (Coordinated Universal Time)
+2022-08-18T13:00:38: PM2 log: PM2 version          : 5.2.0
+2022-08-18T13:00:38: PM2 log: Node.js version      : 12.22.9
+2022-08-18T13:00:38: PM2 log: Current arch         : x64
+2022-08-18T13:00:38: PM2 log: PM2 home             : /root/.pm2
+2022-08-18T13:00:38: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2022-08-18T13:00:38: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2022-08-18T13:00:38: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2022-08-18T13:00:38: PM2 log: Application log path : /root/.pm2/logs
+2022-08-18T13:00:38: PM2 log: Worker Interval      : 30000
+2022-08-18T13:00:38: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2022-08-18T13:00:38: PM2 log: Concurrent actions   : 2
+2022-08-18T13:00:38: PM2 log: SIGTERM timeout      : 1600
+2022-08-18T13:00:38: PM2 log: ===============================================================================
+2022-08-18T17:57:38: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T17:57:38: PM2 log: App [scrapper:0] online
+2022-08-18T17:58:17: PM2 log: Stopping app:scrapper id:0
+2022-08-18T17:58:20: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:20: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:20: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:20: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:20: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:20: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: pid=28699 msg=failed to kill - retrying in 100ms
+2022-08-18T17:58:21: PM2 log: Process with pid 28699 still alive after 1600ms, sending it SIGKILL now...
+2022-08-18T17:58:22: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGKILL]
+2022-08-18T17:58:22: PM2 log: pid=28699 msg=process killed
+2022-08-18T18:17:12: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T18:17:12: PM2 log: App [scrapper:0] online
+2022-08-18T18:18:42: PM2 log: Stopping app:scrapper id:0
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=failed to kill - retrying in 100ms
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=failed to kill - retrying in 100ms
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=failed to kill - retrying in 100ms
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=failed to kill - retrying in 100ms
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=failed to kill - retrying in 100ms
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=failed to kill - retrying in 100ms
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=failed to kill - retrying in 100ms
+2022-08-18T18:18:43: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-18T18:18:43: PM2 log: pid=31454 msg=process killed
+2022-08-18T18:18:43: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T18:18:43: PM2 log: App [scrapper:0] online
+2022-08-18T18:19:44: PM2 log: Stopping app:scrapper id:0
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=failed to kill - retrying in 100ms
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=failed to kill - retrying in 100ms
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=failed to kill - retrying in 100ms
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=failed to kill - retrying in 100ms
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=failed to kill - retrying in 100ms
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=failed to kill - retrying in 100ms
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=failed to kill - retrying in 100ms
+2022-08-18T18:19:45: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-18T18:19:45: PM2 log: pid=34024 msg=process killed
+2022-08-18T18:33:30: PM2 log: App [apiServer2:1] starting in -fork mode-
+2022-08-18T18:33:30: PM2 log: App [apiServer2:1] online
+2022-08-18T18:34:34: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T18:34:34: PM2 log: App [scrapper:0] online
+2022-08-18T18:37:57: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-18T18:39:25: PM2 log: Stopping app:scrapper id:0
+2022-08-18T18:39:25: PM2 log: pid=39068 msg=process killed
+2022-08-18T18:45:28: PM2 log: Stopping app:apiServer2 id:1
+2022-08-18T18:45:28: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:28: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:28: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:29: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:30: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:30: PM2 log: pid=39013 msg=failed to kill - retrying in 100ms
+2022-08-18T18:45:30: PM2 log: Process with pid 39013 still alive after 1600ms, sending it SIGKILL now...
+2022-08-18T18:45:30: PM2 log: App [apiServer2:1] exited with code [0] via signal [SIGKILL]
+2022-08-18T18:45:30: PM2 log: pid=39013 msg=process killed
+2022-08-18T18:45:30: PM2 log: App [apiServer2:1] starting in -fork mode-
+2022-08-18T18:45:30: PM2 log: App [apiServer2:1] online
+2022-08-18T18:46:01: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T18:46:01: PM2 log: App [scrapper:0] online
+2022-08-18T18:46:14: PM2 log: Stopping app:scrapper id:0
+2022-08-18T18:46:18: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:18: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:18: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:19: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:20: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:20: PM2 log: pid=46888 msg=failed to kill - retrying in 100ms
+2022-08-18T18:46:20: PM2 log: Process with pid 46888 still alive after 1600ms, sending it SIGKILL now...
+2022-08-18T18:46:20: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGKILL]
+2022-08-18T18:46:20: PM2 log: pid=46888 msg=process killed
+2022-08-18T18:46:48: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T18:46:48: PM2 log: App [scrapper:0] online
+2022-08-18T18:50:02: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-18T18:51:42: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T18:51:42: PM2 log: App [scrapper:0] online
+2022-08-18T18:54:56: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-18T18:56:36: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-18T18:56:36: PM2 log: App [scrapper:0] online
+2022-08-18T18:59:51: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-18T19:00:45: PM2 log: Stopping app:scrapper id:0
+2022-08-18T19:00:45: PM2 log: pid=54645 msg=process killed
+2022-08-19T06:09:01: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-19T06:09:01: PM2 log: App [scrapper:0] online
+2022-08-19T06:12:23: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-19T06:14:03: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-19T06:14:03: PM2 log: App [scrapper:0] online
+2022-08-19T06:17:23: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-19T06:19:03: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-19T06:19:03: PM2 log: App [scrapper:0] online
+2022-08-19T06:22:20: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-19T06:24:00: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-19T06:24:00: PM2 log: App [scrapper:0] online
+2022-08-19T06:27:19: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-19T06:28:59: PM2 log: App [scrapper:0] starting in -fork mode-
+2022-08-19T06:28:59: PM2 log: App [scrapper:0] online
+2022-08-19T06:32:16: PM2 log: App [scrapper:0] exited with code [0] via signal [SIGINT]
+2022-08-19T06:33:03: PM2 log: Stopping app:scrapper id:0
+2022-08-19T06:33:03: PM2 log: pid=70906 msg=process killed

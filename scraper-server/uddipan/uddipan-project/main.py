@@ -1,3 +1,4 @@
+
 #from attr import field
 from flask import Flask, request
 import flask
@@ -29,30 +30,7 @@ app.config['MYSQL_DB'] = config['MYSQL_DB']  # database name
 
 # Do your work here
 
-create()
 db_connection = db()
-
-
-def startScrapperSchdular():
-    print(db_connection)
-    print ("test")
-    logger.debug("startScrapper")
-    scheduler1 = BackgroundScheduler(job_defaults={'max_instances': config["MaxNInstance"]})
-    # scheduler1.add_job(id='Scheduled task', func=prr,minute='46', trigger="interval",)
-    scheduler1.add_job(id='Scheduled task', func=startScrapper, seconds=60*3, trigger="interval")
-    scheduler1.start()
-    atexit.register(lambda: scheduler1.shutdown())
-    print("Scrapper tarted Again !!!!!")
-
-
-def startScrapper():
-    logger.debug("startScrapper")
-    bashCommand = "python3 main_linux.py"
-    os.system(bashCommand)
-
-
-app.before_first_request(startScrapperSchdular)
-
 
 @app.errorhandler(werkzeug.exceptions.HTTPException)  # werkzeug error handler
 def Error(err):
@@ -86,7 +64,7 @@ def respon(data):  # format error massage and returns flask response
         "powerdby": "Devcorps"
     }
     return flask.Response(status=200, response=json.dumps(obj))
-    
+
 
 @app.route('/updateData',methods = ['POST', 'GET'])
 def updateData():
@@ -94,8 +72,17 @@ def updateData():
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
-    url = "http://188.166.181.245:3575/updateData"
-    PARAMS = {'key': "MyApiKEy"}
-    r = requests.get(url = url, params = PARAMS)
+    bashCommand = "sudo pm2 start scrapper"
+    os.popen(bashCommand)
+    return respon("Started")
 
-    return r
+
+@app.route('/stopScrapper',methods = ['POST', 'GET'])
+def stopScrapper():
+    key = request.headers.get("key")
+    valid = isvalid(key)
+    if not valid:
+        return error("Bad Request", 400)
+    bashCommand = "sudo pm2 stop scrapper"
+    os.popen(bashCommand)
+    return respon("Stopped")#from attr import field
