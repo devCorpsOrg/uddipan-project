@@ -1,0 +1,65 @@
+2022-08-18 18:31:39.633 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/usr/local/lib/python3.10/dist-packages/mysql/__init__.py'>
+2022-08-19 06:02:55.795 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:02:55.795 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:04:48.336 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:04:48.336 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:04:51.205 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:04:51.205 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:08:54.197 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:08:54.197 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:08:57.984 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:08:57.984 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:09:46.524 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:09:46.524 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:10:21.237 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:10:21.238 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:10:43.462 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:10:43.462 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:11:05.471 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:11:05.471 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:14:17.788 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:14:17.789 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:14:19.197 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:14:19.197 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:14:21.753 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:14:21.753 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:17:34.682 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:17:34.682 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:18:01.109 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:18:01.110 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:20:30.396 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:20:30.396 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 06:24:14.244 | ERROR    | main:Error:58 - HTTPException Error
+2022-08-19 06:24:14.245 | ERROR    | main:error:70 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
