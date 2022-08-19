@@ -50,26 +50,8 @@ class db:
 
                 info = cursor.fetchall()
                 data.append(info)
-                data = [i for n, i in enumerate(data) if i not in data[n + 1:]]
-
-                for dt in data:
-                    priority = 0
-                    for pnw in productNameList:
-                        if (str(pnw.lower())) in str(dt["Product Name"].lower()):
-                            priority = priority + 1
-                        else:
-                            continue
-                        prt = {"priority" : priority}
-                        dt.update(prt)
-                data = sorted(data, key=lambda x: x['priority'], reverse=True)
-
-                if len(data) > 20:
-                    data = data[0:20]
-
-                for dt in data:
-                    dt.pop("priority")
-                    
-                return data
+                clean_data = [i for n, i in enumerate(data) if i not in data[n + 1:]]
+                return clean_data
         else:
             query = f"SELECT * FROM `{table}` WHERE 1"
             cursor.execute(query)
