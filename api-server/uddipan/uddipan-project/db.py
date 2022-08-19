@@ -52,30 +52,33 @@ class db:
         if query is None:
             query = {}
         if search:
-            productName = query['value']
-            productName = productName.replace("'", "")
-            productNameList = productName.split(" ")
-            data = []
-            for productName in productNameList:
-                if query['flag'] :
+            if query['flag'] :
+                productName = query['value']
+                productName = productName.replace("'", "")
+                productNameList = productName.split(" ")
+                data = []
+                for productName in productNameList:
+
                     query = f"SELECT * FROM `{table}` WHERE `{query['query']}` LIKE '%{productName}%' OR '{productName}%' OR '%{productName}'"
-                else :
-                    query = f"SELECT * FROM `{table}`"
-                cursor.execute(query)
-                try:
-                    self.mydb.commit()
-                except Exception as e:
-                    logger.error(f"error 55 : {e}")
-                    return []
 
-                info = cursor.fetchall()
-                data.append(info)
-                data = [i for n, i in enumerate(data) if i not in data[n + 1:]]
+                    cursor.execute(query)
+                    info = cursor.fetchall()
+                    data.append(info)
+                    data = [i for n, i in enumerate(data) if i not in data[n + 1:]]
 
-                data = search_adv(data, productNameList)
-                
-                return data
+                    data = search_adv(data, productNameList)
+                    
+                    return data
 
+            else :
+                query = f"SELECT * FROM `{table}`"
+            cursor.execute(query)
+            try:
+                self.mydb.commit()
+            except Exception as e:
+                logger.error(f"error 55 : {e}")
+                return []
+            return cursor.fetchall()
         else:
             query = f"SELECT * FROM `{table}` WHERE 1"
             cursor.execute(query)

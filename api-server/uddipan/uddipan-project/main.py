@@ -69,7 +69,7 @@ def respon(data):  # format error massage and returns flask response
 
 @app.route('/getData',methods = ['POST', 'GET'])
 def getData():
-    key = request.args.get('key')
+    key = request.headers.get("key")
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
@@ -84,7 +84,7 @@ def getData():
 
 @app.route('/getTableData',methods = ['POST', 'GET'])
 def getTableData():
-    key = request.args.get('key')
+    key = request.headers.get("key")
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
