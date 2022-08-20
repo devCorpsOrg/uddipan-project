@@ -1,0 +1,9 @@
+2022-08-19 19:20:54.394 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/usr/local/lib/python3.10/dist-packages/mysql/__init__.py'>
+2022-08-19 19:20:58.859 | ERROR    | main:Error:38 - HTTPException Error
+2022-08-19 19:20:58.859 | ERROR    | main:error:50 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+
+2022-08-19 19:21:19.307 | ERROR    | main:Error:38 - HTTPException Error
+2022-08-19 19:21:19.309 | ERROR    | main:error:50 - 
+Error(name, code)->-----------name Internal Server Error   code 500
+

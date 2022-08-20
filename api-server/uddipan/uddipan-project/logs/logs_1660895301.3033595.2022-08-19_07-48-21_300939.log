@@ -1,0 +1,4 @@
+2022-08-19 07:48:21.446 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/usr/local/lib/python3.10/dist-packages/mysql/__init__.py'>
+2022-08-19 07:48:52.292 | ERROR    | main:error:50 - 
+Error(name, code)->-----------name Bad Request   code 400
+
