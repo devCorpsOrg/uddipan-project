@@ -4,7 +4,7 @@ with open("uniqueLnks_1.txt", "r") as output:
     lnk["uniqueLnks_1"] = output.read()
 
 with open("uniqueLnks_2.txt", "r") as output:
-    lnk["uniqueLnks_3"] = output.read()
+    lnk["uniqueLnks_2"] = output.read()
 
 with open("uniqueLnks_3.txt", "r") as output:
     lnk["uniqueLnks_3"] = output.read()
@@ -56,6 +56,3 @@ with open("uniqueLnks_18.txt", "r") as output:
 
 with open("uniqueLnks_19.txt", "r") as output:
     lnk["uniqueLnks_19"] = output.read()
-
-
-print(lnk["uniqueLnks_1"])
