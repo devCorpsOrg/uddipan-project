@@ -1,1 +1,18 @@
-2022-08-19 21:43:37.314 | INFO     | db:__init__:23 - Datebase Class Created With <module 'mysql' from '/usr/local/lib/python3.10/dist-packages/mysql/__init__.py'>
+2022-08-21 06:09:37.972 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-08-21 06:11:05.440 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-08-21 06:11:39.852 | ERROR    | main:Error:37 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-08-21 06:11:39.852 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-08-21 06:14:11.673 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Bad Request   code 400
+
+2022-08-21 06:14:14.648 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Bad Request   code 400
+

@@ -4253,7 +4253,7 @@
     "Quantity": 1,
     "Volume": 100.0,
     "Category": "Gin",
-    "Price": "88.00",
+    "Price": "82.00",
     "Product Link": "https://cellarbration.com.sg/tanqueray-malacca-gin-1-litre.html"
   },
   {
@@ -5558,7 +5558,7 @@
     "Quantity": 1,
     "Volume": 100.0,
     "Category": "Single Malt",
-    "Price": "162.00",
+    "Price": "149.00",
     "Product Link": "https://cellarbration.com.sg/laphroaig-px-cask-triple-matured-whisky-1-litre.html"
   },
   {
@@ -6440,7 +6440,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "148.00",
+    "Price": "142.00",
     "Product Link": "https://cellarbration.com.sg/johnnie-walker-ultimate-18-years-1-litre.html"
   },
   {
@@ -9212,7 +9212,7 @@
     "Quantity": 1,
     "Volume": 100.0,
     "Category": "Apéritif",
-    "Price": "42.00",
+    "Price": "39.00",
     "Product Link": "https://cellarbration.com.sg/cinzano-1757-extra-dry-vermouth-1-litre.html"
   },
   {
@@ -12641,7 +12641,7 @@
     "Quantity": 1,
     "Volume": "75",
     "Category": "Grand",
-    "Price": "358.00",
+    "Price": "388.00",
     "Product Link": "https://alcohaul.sg/products/krug-grand-cuvee-edition-168-75cl"
   },
   {
@@ -20515,7 +20515,7 @@
     "Product Name": "",
     "Quantity": 1,
     "Volume": "",
-    "Category": "Champagne & Sparkling",
+    "Category": "Product not found!",
     "Price": "",
     "Product Link": "https://www.bnb.com.sg/wolf-blass-gold-label-pinot-noir-chardonnay"
   },
@@ -21595,7 +21595,7 @@
     "Product Name": "",
     "Quantity": 1,
     "Volume": "",
-    "Category": "Product not found!",
+    "Category": "Wine",
     "Price": "",
     "Product Link": "https://www.bnb.com.sg/joseph-phelps-cabernet-sauvignon"
   },
@@ -21622,7 +21622,7 @@
     "Product Name": "",
     "Quantity": 1,
     "Volume": "",
-    "Category": "Wine",
+    "Category": "Product not found!",
     "Price": "",
     "Product Link": "https://www.bnb.com.sg/cape-mentelle-chardonnay"
   },
@@ -22087,11 +22087,11 @@
   },
   {
     "Site": "chuansenghuat",
-    "Product Name": "",
+    "Product Name": "VEUVE CLICQUOT BRUT",
     "Quantity": 1,
-    "Volume": "",
-    "Category": "",
-    "Price": "",
+    "Volume": 75.0,
+    "Category": "Champagne / Sparkling Wine",
+    "Price": "88.00",
     "Product Link": "https://chuansenghuat.com.sg/product/veuve-clicquot-brut-750ml/"
   },
   {
@@ -22217,7 +22217,7 @@
     "Quantity": 1,
     "Volume": 70.0,
     "Category": "Various Liquors & Others",
-    "Price": "38.00",
+    "Price": "43.00",
     "Product Link": "https://chuansenghuat.com.sg/product/bols-triple-sec-700ml/"
   },
   {
@@ -23149,11 +23149,11 @@
   },
   {
     "Site": "chuansenghuat",
-    "Product Name": "MUMM CHAMPAGNE",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": 75.0,
-    "Category": "Champagne / Sparkling Wine",
-    "Price": "55.00",
+    "Volume": "",
+    "Category": "",
+    "Price": "",
     "Product Link": "https://chuansenghuat.com.sg/product/mumm-champagne-750ml/"
   },
   {
@@ -24224,7 +24224,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "Beer / Stout",
-    "Price": "$58.00",
+    "Price": "62.00",
     "Product Link": "https://chuansenghuat.com.sg/product/hoegaarden-beer-bottle-330ml-x-24/"
   },
   {
@@ -24854,7 +24854,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "Champagne / Sparkling Wine",
-    "Price": "83.00",
+    "Price": "88.00",
     "Product Link": "https://chuansenghuat.com.sg/product/veuve-clicquot-rose-750ml/"
   },
   {
@@ -25934,7 +25934,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "Champagne / Sparkling Wine",
-    "Price": "74.00",
+    "Price": "83.00",
     "Product Link": "https://chuansenghuat.com.sg/product/moet-chandon-rose-750ml/"
   },
   {
@@ -26674,6 +26674,15 @@
     "Category": "",
     "Price": "12.30",
     "Product Link": "https://coldstorage.com.sg/honey-upside-dn-organic-5039478"
+  },
+  {
+    "Site": "coldstorage",
+    "Product Name": "3 Ply Facial Tissue Vintage 5sX100Sheets",
+    "Quantity": 1,
+    "Volume": "100EA",
+    "Category": "",
+    "Price": "6.10",
+    "Product Link": "https://coldstorage.com.sg/vintage-facial-tissue-3ply-5box-5004466"
   },
   {
     "Site": "coldstorage",
@@ -28297,12 +28306,21 @@
   },
   {
     "Site": "coldstorage",
-    "Product Name": "",
+    "Product Name": "Organic Veggie Pasta Alphabets 200g",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "200G",
     "Category": "",
-    "Price": "",
+    "Price": "7.55",
     "Product Link": "https://coldstorage.com.sg/bellamy-s-org-veggie-pasta-alpha-200g-5097700"
+  },
+  {
+    "Site": "coldstorage",
+    "Product Name": "Coke Vanilla 12s 320ml",
+    "Quantity": 1,
+    "Volume": "320ML",
+    "Category": "",
+    "Price": "9.30",
+    "Product Link": "https://coldstorage.com.sg/coca-cola-coke-vanilla-12s-320ml-5058805"
   },
   {
     "Site": "coldstorage",
@@ -28796,7 +28814,7 @@
     "Quantity": 1,
     "Volume": "500ML",
     "Category": "",
-    "Price": "2.70",
+    "Price": "1.95",
     "Product Link": "https://coldstorage.com.sg/superior-light-soy-sauce-5008659"
   },
   {
@@ -28985,7 +29003,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "4.70 / 100g",
+    "Price": "3.75 / 100g",
     "Product Link": "https://coldstorage.com.sg/ap-brazil-nuts-5027714"
   },
   {
@@ -31802,7 +31820,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "9.50 / 100g",
+    "Price": "7.60 / 100g",
     "Product Link": "https://coldstorage.com.sg/ap-pinenuts-5027702"
   },
   {
@@ -31984,6 +32002,15 @@
     "Category": "",
     "Price": "7.25",
     "Product Link": "https://coldstorage.com.sg/molasses-5018577"
+  },
+  {
+    "Site": "coldstorage",
+    "Product Name": "Organic Ginger Dark Chocolate 90g",
+    "Quantity": 1,
+    "Volume": "90G",
+    "Category": "",
+    "Price": "5.85",
+    "Product Link": "https://coldstorage.com.sg/g-b-s-organic-ginger-dark-chocolate-90g-5086726"
   },
   {
     "Site": "coldstorage",
@@ -33760,6 +33787,15 @@
   },
   {
     "Site": "coldstorage",
+    "Product Name": "HAAGEN-DAZS S/CARAMEL CAPPUCCINO 473ML",
+    "Quantity": 1,
+    "Volume": "473ML",
+    "Category": "",
+    "Price": "14.50",
+    "Product Link": "https://coldstorage.com.sg/haagen-dazs-s-caramel-cappuccino-473ml-5106110"
+  },
+  {
+    "Site": "coldstorage",
     "Product Name": "Nougat - Original Crunchy 100g",
     "Quantity": 1,
     "Volume": "100G",
@@ -35017,24 +35053,6 @@
     "Category": "",
     "Price": "4.25",
     "Product Link": "https://coldstorage.com.sg/concentrate-fat-free-4s-5001975"
-  },
-  {
-    "Site": "coldstorage",
-    "Product Name": "Reserva Syrah",
-    "Quantity": 1,
-    "Volume": "75",
-    "Category": "",
-    "Price": "28.50",
-    "Product Link": "https://coldstorage.com.sg/vinedos-de-chile-reserve-shiraz-75cl-5061975"
-  },
-  {
-    "Site": "coldstorage",
-    "Product Name": "LAKEROL CLS S/BY",
-    "Quantity": 1,
-    "Volume": "27G",
-    "Category": "",
-    "Price": "2.25",
-    "Product Link": "https://coldstorage.com.sg/classic-strawberry-pastilles-5001006"
   },
   {
     "Site": "coldstorage",
@@ -36311,7 +36329,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "3.50 / 100g",
+    "Price": "2.80 / 100g",
     "Product Link": "https://coldstorage.com.sg/ap-roast-salted-almonds-5027733"
   },
   {
@@ -38570,7 +38588,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "4.30 / 100g",
+    "Price": "3.45 / 100g",
     "Product Link": "https://coldstorage.com.sg/ap-rst-pistachio-nuts-5027721"
   },
   {
@@ -38858,7 +38876,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "8.20",
+    "Price": "5.95",
     "Product Link": "https://coldstorage.com.sg/royal-umbrella-mixed-rice-2kg-5094025"
   },
   {
@@ -38935,6 +38953,15 @@
   },
   {
     "Site": "coldstorage",
+    "Product Name": "Pasta Cheese Shredded 200g",
+    "Quantity": 1,
+    "Volume": "200G",
+    "Category": "",
+    "Price": "6.85",
+    "Product Link": "https://coldstorage.com.sg/pasta-cheeze-5016811"
+  },
+  {
+    "Site": "coldstorage",
     "Product Name": "Laundry Detergent Delicate 1.5L",
     "Quantity": 1,
     "Volume": "1.5L",
@@ -38989,21 +39016,12 @@
   },
   {
     "Site": "coldstorage",
-    "Product Name": "Pie Filling Original Cherry 21oz",
-    "Quantity": 1,
-    "Volume": "21OZ",
-    "Category": "",
-    "Price": "8.45",
-    "Product Link": "https://coldstorage.com.sg/pie-fill-orig-c-cherry-5012597"
-  },
-  {
-    "Site": "coldstorage",
-    "Product Name": "Roast Unsalted Cashews",
+    "Product Name": "",
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "3.40 / 100g",
-    "Product Link": "https://coldstorage.com.sg/ap-rst-unsalted-cashews-5027744"
+    "Price": "",
+    "Product Link": "https://coldstorage.com.sg/pie-fill-orig-c-cherry-5012597"
   },
   {
     "Site": "coldstorage",
@@ -39130,15 +39148,6 @@
     "Category": "",
     "Price": "3.95",
     "Product Link": "https://coldstorage.com.sg/huggies-pure-water-wipes-3sx16pc-5070683"
-  },
-  {
-    "Site": "coldstorage",
-    "Product Name": "Garlic Smoked Sausages 396g",
-    "Quantity": 1,
-    "Volume": "360G",
-    "Category": "",
-    "Price": "10.90",
-    "Product Link": "https://coldstorage.com.sg/garlic-sausage-5013441"
   },
   {
     "Site": "coldstorage",
@@ -39614,7 +39623,7 @@
     "Quantity": 1,
     "Volume": "210G",
     "Category": "",
-    "Price": "16.35",
+    "Price": "13.75",
     "Product Link": "https://coldstorage.com.sg/seafood-xo-sauce-5024917"
   },
   {
@@ -40096,6 +40105,15 @@
   },
   {
     "Site": "coldstorage",
+    "Product Name": "Rose Organic 750ml",
+    "Quantity": 1,
+    "Volume": "750ML",
+    "Category": "",
+    "Price": "30.00",
+    "Product Link": "https://coldstorage.com.sg/anima-de-raimat-rose-organic-75cl-5091531"
+  },
+  {
+    "Site": "coldstorage",
     "Product Name": "Ambipur Anti Bacterial Refill 640ml",
     "Quantity": 1,
     "Volume": "640ML",
@@ -40210,6 +40228,15 @@
     "Category": "",
     "Price": "11.95",
     "Product Link": "https://coldstorage.com.sg/together-5002882"
+  },
+  {
+    "Site": "coldstorage",
+    "Product Name": "Roll On Deodorant - Silver Protect 50ml",
+    "Quantity": 1,
+    "Volume": "50ML",
+    "Category": "",
+    "Price": "5.20",
+    "Product Link": "https://coldstorage.com.sg/roll-on-silver-protect-5010686"
   },
   {
     "Site": "coldstorage",
@@ -40483,30 +40510,39 @@
   },
   {
     "Site": "coldstorage",
+    "Product Name": "Cake Mix-Rainbow Chip 432g",
+    "Quantity": 1,
+    "Volume": "15.25OZ",
+    "Category": "",
+    "Price": "4.95",
+    "Product Link": "https://coldstorage.com.sg/cake-mix-rainbow-chip-5018785"
+  },
+  {
+    "Site": "coldstorage",
+    "Product Name": "Nonpareille Capers In Brine 142g",
+    "Quantity": 1,
+    "Volume": "142G",
+    "Category": "",
+    "Price": "7.55",
+    "Product Link": "https://coldstorage.com.sg/ci-nonpareille-capers-5018427"
+  },
+  {
+    "Site": "coldstorage",
+    "Product Name": "The Quinta Ruban 700ml",
+    "Quantity": 1,
+    "Volume": "700ML",
+    "Category": "",
+    "Price": "104.00",
+    "Product Link": "https://coldstorage.com.sg/glenmorangie-the-quinta-ruban-70cl-5090687"
+  },
+  {
+    "Site": "coldstorage",
     "Product Name": "Original English Mustard 100g",
     "Quantity": 1,
     "Volume": "100G",
     "Category": "",
     "Price": "3.65",
     "Product Link": "https://coldstorage.com.sg/english-prep-mustard-5008861"
-  },
-  {
-    "Site": "coldstorage",
-    "Product Name": "Gold Stage 2 2'-FL Follow-On 400g - Infant Newborn Baby Milk Formula",
-    "Quantity": 1,
-    "Volume": "400G",
-    "Category": "",
-    "Price": "26.90",
-    "Product Link": "https://coldstorage.com.sg/frisolac-gold-2fl-follow-on-st2-400g-5089216"
-  },
-  {
-    "Site": "coldstorage",
-    "Product Name": "Rose 750ml",
-    "Quantity": 1,
-    "Volume": "75",
-    "Category": "",
-    "Price": "34.50",
-    "Product Link": "https://coldstorage.com.sg/rose-5034231"
   },
   {
     "Site": "coldstorage",
@@ -40739,7 +40775,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "4.70 / 100g",
+    "Price": "3.75 / 100g",
     "Product Link": "https://coldstorage.com.sg/ap-hazelnuts-5027723"
   },
   {
@@ -42490,15 +42526,6 @@
   },
   {
     "Site": "coldstorage",
-    "Product Name": "Goji Power 2462",
-    "Quantity": 1,
-    "Volume": "",
-    "Category": "",
-    "Price": "2.95 / 100g",
-    "Product Link": "https://coldstorage.com.sg/ap-goji-power-5027742"
-  },
-  {
-    "Site": "coldstorage",
     "Product Name": "Apricot Jam 480g",
     "Quantity": 1,
     "Volume": "480G",
@@ -43151,7 +43178,7 @@
     "Quantity": 1,
     "Volume": "320ML",
     "Category": "",
-    "Price": "27.25",
+    "Price": "23.00",
     "Product Link": "https://coldstorage.com.sg/green-label-12s-5000086"
   },
   {
@@ -44326,12 +44353,12 @@
   },
   {
     "Site": "coldstorage",
-    "Product Name": "White Peach Go Fresh Body 1L",
+    "Product Name": "Capers 45g",
     "Quantity": 1,
-    "Volume": "1L",
+    "Volume": "45G",
     "Category": "",
-    "Price": "9.70",
-    "Product Link": "https://coldstorage.com.sg/dove-white-peach-go-fresh-body-wash-1l-5102685"
+    "Price": "5.60",
+    "Product Link": "https://coldstorage.com.sg/capers-5014320"
   },
   {
     "Site": "coldstorage",
@@ -44467,6 +44494,15 @@
     "Category": "",
     "Price": "6.20",
     "Product Link": "https://coldstorage.com.sg/strongbrew-can-5000018"
+  },
+  {
+    "Site": "coldstorage",
+    "Product Name": "Moz Bye Mosquito Repellent - Air Refreshener Lemongrass 275ml",
+    "Quantity": 1,
+    "Volume": "275ML",
+    "Category": "",
+    "Price": "6.90",
+    "Product Link": "https://coldstorage.com.sg/mosbye-moq-rpl-lemongrs-5025543"
   },
   {
     "Site": "coldstorage",
@@ -44744,7 +44780,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "3.50 / 100g",
+    "Price": "2.80 / 100g",
     "Product Link": "https://coldstorage.com.sg/ap-rst-unslated-almonds-5027734"
   },
   {
@@ -44753,7 +44789,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "1.10 / 100g",
+    "Price": "0.85 / 100g",
     "Product Link": "https://coldstorage.com.sg/ap-peanuts-roast-salted-5086183"
   },
   {
@@ -45127,6 +45163,15 @@
   },
   {
     "Site": "coldstorage",
+    "Product Name": "Rum & Raisin Pint 473ml",
+    "Quantity": 1,
+    "Volume": "473ML",
+    "Category": "",
+    "Price": "14.50",
+    "Product Link": "https://coldstorage.com.sg/rum-raisin-ice-cream-5002631"
+  },
+  {
+    "Site": "coldstorage",
     "Product Name": "Block Milk Chocolate Hazelnut 190g",
     "Quantity": 1,
     "Volume": "190G",
@@ -45160,15 +45205,6 @@
     "Category": "",
     "Price": "10.45",
     "Product Link": "https://coldstorage.com.sg/nescafe-gold-espresso-jar-1oog-5104162"
-  },
-  {
-    "Site": "coldstorage",
-    "Product Name": "Velvet Touch Bar Soap 6sX80g",
-    "Quantity": 1,
-    "Volume": "80G",
-    "Category": "",
-    "Price": "2.45",
-    "Product Link": "https://coldstorage.com.sg/velvet-touch-bar-soap-6s-5011947"
   },
   {
     "Site": "coldstorage",
@@ -45239,7 +45275,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "8.20",
+    "Price": "5.95",
     "Product Link": "https://coldstorage.com.sg/royal-umbrella-thai-frag-brown-rice-2kg-5094024"
   },
   {
@@ -45550,6 +45586,15 @@
   },
   {
     "Site": "coldstorage",
+    "Product Name": "LIESE CREAMY BUBBLE COL ASH BROWN 1S",
+    "Quantity": 1,
+    "Volume": "1ST",
+    "Category": "",
+    "Price": "19.90",
+    "Product Link": "https://coldstorage.com.sg/liese-creamy-bubble-col-ash-brown-1s-5083013"
+  },
+  {
+    "Site": "coldstorage",
     "Product Name": "RYO Damage Care & Nourishing Treatment 180ml",
     "Quantity": 1,
     "Volume": "180ML",
@@ -45626,7 +45671,7 @@
     "Quantity": 1,
     "Volume": "0.75l",
     "Category": "White",
-    "Price": "89.00",
+    "Price": "96.90",
     "Product Link": "https://shop.cornerstonewines.com/detail.php?lid=K1I=&id=VFZSQmVrNUVaejA9K1U="
   },
   {
@@ -47525,7 +47570,7 @@
     "Quantity": 1,
     "Volume": "0.75l",
     "Category": "Red",
-    "Price": "141.50",
+    "Price": "149.00",
     "Product Link": "https://shop.cornerstonewines.com/detail.php?lid=K1M=&id=VmtSR1UxTnRWa1pOVlVwUlZrUkJPUT09K0M="
   },
   {
@@ -52394,7 +52439,7 @@
     "Quantity": 1,
     "Volume": "24 x 320ML",
     "Category": "",
-    "Price": "53.95",
+    "Price": "46.00",
     "Product Link": "https://giant.sg/product/green-label-24s-5022003"
   },
   {
@@ -52475,7 +52520,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "5.90",
+    "Price": "5.02",
     "Product Link": "https://giant.sg/product/white-rice-5050084"
   },
   {
@@ -53119,11 +53164,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Pants SJP M 56s X 4",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "224PAK",
     "Category": "",
-    "Price": "",
+    "Price": "75.40",
     "Product Link": "https://giant.sg/product/huggies-gold-pants-sjp-m-56sx4-5106438"
   },
   {
@@ -53429,7 +53474,7 @@
     "Quantity": 1,
     "Volume": "54G",
     "Category": "",
-    "Price": "1.00",
+    "Price": "1.45",
     "Product Link": "https://giant.sg/product/vanilla-roll-5000381"
   },
   {
@@ -53708,7 +53753,7 @@
     "Quantity": 1,
     "Volume": "320ML",
     "Category": "",
-    "Price": "27.25",
+    "Price": "23.00",
     "Product Link": "https://giant.sg/product/beer-12sx323ml-5000086"
   },
   {
@@ -55247,7 +55292,7 @@
     "Quantity": 1,
     "Volume": "10KG",
     "Category": "",
-    "Price": "31.80",
+    "Price": "27.03",
     "Product Link": "https://giant.sg/product/fragrant-rice-10kg-5050676"
   },
   {
@@ -55256,7 +55301,7 @@
     "Quantity": 1,
     "Volume": "360ML",
     "Category": "",
-    "Price": "8.75",
+    "Price": "7.90",
     "Product Link": "https://giant.sg/product/oneshot-juicy-watermelon-bot-1s-360ml-5111072"
   },
   {
@@ -55922,7 +55967,7 @@
     "Quantity": 1,
     "Volume": "25KG",
     "Category": "",
-    "Price": "65.00",
+    "Price": "55.25",
     "Product Link": "https://giant.sg/product/royal-umbrella-hommali-rice-25kg-5111663"
   },
   {
@@ -56282,7 +56327,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "10.50",
+    "Price": "8.93",
     "Product Link": "https://giant.sg/product/premium-red-cargo-rice-2kg-5007828"
   },
   {
@@ -56561,7 +56606,7 @@
     "Quantity": 1,
     "Volume": "0.75KG",
     "Category": "",
-    "Price": "5.40",
+    "Price": "4.59",
     "Product Link": "https://giant.sg/product/organic-brown-rice-0-75kg-5001960"
   },
   {
@@ -56800,11 +56845,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Diapers XL Carton 3 X 50s",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "3 x 50PAK",
     "Category": "",
-    "Price": "",
+    "Price": "56.85",
     "Product Link": "https://giant.sg/product/huggies-gold-diapers-xl-50sx3-5101918"
   },
   {
@@ -57038,7 +57083,7 @@
     "Quantity": 1,
     "Volume": "1KG",
     "Category": "",
-    "Price": "4.50",
+    "Price": "3.83",
     "Product Link": "https://giant.sg/product/r-umbrella-rice-5014246"
   },
   {
@@ -57164,7 +57209,7 @@
     "Quantity": 1,
     "Volume": "1.8KG",
     "Category": "",
-    "Price": "10.80",
+    "Price": "9.18",
     "Product Link": "https://giant.sg/product/naturel-gaba-rby-5037124"
   },
   {
@@ -58568,7 +58613,7 @@
     "Quantity": 1,
     "Volume": "2.5KG",
     "Category": "",
-    "Price": "9.80",
+    "Price": "8.33",
     "Product Link": "https://giant.sg/product/ru-jasmine-rice-5012851"
   },
   {
@@ -58631,7 +58676,7 @@
     "Quantity": 1,
     "Volume": "360ML",
     "Category": "",
-    "Price": "8.75",
+    "Price": "7.90",
     "Product Link": "https://giant.sg/product/oneshot-white-peach-bot-1s-360ml-5111071"
   },
   {
@@ -59846,7 +59891,7 @@
     "Quantity": 1,
     "Volume": "360ML",
     "Category": "",
-    "Price": "8.75",
+    "Price": "7.90",
     "Product Link": "https://giant.sg/product/oneshot-green-grape-bot-1s-360ml-5110888"
   },
   {
@@ -59981,7 +60026,7 @@
     "Quantity": 1,
     "Volume": "2.5KG",
     "Category": "",
-    "Price": "11.90",
+    "Price": "10.12",
     "Product Link": "https://giant.sg/product/japanese-rice-2-5kg-5013886"
   },
   {
@@ -60269,7 +60314,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "9.90",
+    "Price": "8.42",
     "Product Link": "https://giant.sg/product/sakura-japonica-rice-5kg-5088224"
   },
   {
@@ -61106,7 +61151,7 @@
     "Quantity": 1,
     "Volume": "210G",
     "Category": "",
-    "Price": "15.90",
+    "Price": "13.75",
     "Product Link": "https://giant.sg/product/seafood-xo-sauce-5024917"
   },
   {
@@ -61286,7 +61331,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "8.30",
+    "Price": "7.06",
     "Product Link": "https://giant.sg/product/16-s-fan-w-t-ms40b-5021194"
   },
   {
@@ -61322,7 +61367,7 @@
     "Quantity": 1,
     "Volume": "1KG",
     "Category": "",
-    "Price": "4.90",
+    "Price": "4.17",
     "Product Link": "https://giant.sg/product/frag-brown-rice-5061037"
   },
   {
@@ -61799,7 +61844,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "16.50",
+    "Price": "14.03",
     "Product Link": "https://giant.sg/product/flying-man-frag-rice-5kg-5048252"
   },
   {
@@ -62641,11 +62686,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Diapers S Carton 3 X 72s",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "3 x 72PAK",
     "Category": "",
-    "Price": "",
+    "Price": "56.85",
     "Product Link": "https://giant.sg/product/huggies-gold-diapers-s-72sx3-5101915"
   },
   {
@@ -62686,11 +62731,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "3 Ply Ultra Soft Pack Tissue - Disney 4 X50s",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": "50EA",
+    "Volume": "",
     "Category": "",
-    "Price": "2.00",
+    "Price": "",
     "Product Link": "https://giant.sg/product/kleenex-5022464"
   },
   {
@@ -62960,7 +63005,7 @@
     "Quantity": 1,
     "Volume": "2.5KG",
     "Category": "",
-    "Price": "7.40",
+    "Price": "6.29",
     "Product Link": "https://giant.sg/product/meadows-mixed-brown-rice-2-5kg-5076082"
   },
   {
@@ -63032,7 +63077,7 @@
     "Quantity": 1,
     "Volume": "750PAK",
     "Category": "",
-    "Price": "4.50",
+    "Price": "3.83",
     "Product Link": "https://giant.sg/product/origrain-red-rc-5031869"
   },
   {
@@ -63271,11 +63316,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Platinum Nature Made Pants XL 38s Bundle With Wipes Promo Pack",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "38EA",
     "Category": "",
-    "Price": "",
+    "Price": "26.95",
     "Product Link": "https://giant.sg/product/huggies-plat-nm-pants-xl-38s-bw-wipes-pp-5099505"
   },
   {
@@ -63392,7 +63437,7 @@
     "Quantity": 1,
     "Volume": "360ML",
     "Category": "",
-    "Price": "8.75",
+    "Price": "7.90",
     "Product Link": "https://giant.sg/product/oneshot-sweet-lychee-bot-1s-360ml-5110889"
   },
   {
@@ -63509,7 +63554,7 @@
     "Quantity": 1,
     "Volume": "1KG",
     "Category": "",
-    "Price": "4.65",
+    "Price": "3.95",
     "Product Link": "https://giant.sg/product/red-brown-cargo-rice-1kg-5013919"
   },
   {
@@ -63739,11 +63784,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Pants SJP XXL Carton 4 X 32s",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "4 x 32PAK",
     "Category": "",
-    "Price": "",
+    "Price": "75.40",
     "Product Link": "https://giant.sg/product/huggies-gold-pants-sjp-xxl-32sx4-5101979"
   },
   {
@@ -64522,11 +64567,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Diapers L Carton 3 X 62s",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "3 x 62PAK",
     "Category": "",
-    "Price": "",
+    "Price": "56.85",
     "Product Link": "https://giant.sg/product/huggies-gold-diapers-l-62sx3-5101916"
   },
   {
@@ -64877,7 +64922,7 @@
     "Quantity": 1,
     "Volume": "2.5KG",
     "Category": "",
-    "Price": "11.75",
+    "Price": "9.99",
     "Product Link": "https://giant.sg/product/frag-brown-rice-5061035"
   },
   {
@@ -65795,7 +65840,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "16.80",
+    "Price": "14.28",
     "Product Link": "https://giant.sg/product/fragrant-rice-5kg-5007827"
   },
   {
@@ -65930,7 +65975,7 @@
     "Quantity": 1,
     "Volume": "320ML",
     "Category": "",
-    "Price": "27.25",
+    "Price": "23.00",
     "Product Link": "https://giant.sg/product/smooth-draught-12s-5032343"
   },
   {
@@ -65957,7 +66002,7 @@
     "Quantity": 1,
     "Volume": "2.5KG",
     "Category": "",
-    "Price": "9.95",
+    "Price": "8.46",
     "Product Link": "https://giant.sg/product/brown-jas-rice-5024840"
   },
   {
@@ -66191,7 +66236,7 @@
     "Quantity": 1,
     "Volume": "500G",
     "Category": "",
-    "Price": "3.80",
+    "Price": "3.23",
     "Product Link": "https://giant.sg/product/s-remo-cous-5010181"
   },
   {
@@ -66740,7 +66785,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "13.60",
+    "Price": "11.56",
     "Product Link": "https://giant.sg/product/fragrant-rice-5kg-5015159"
   },
   {
@@ -66821,7 +66866,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "9.50",
+    "Price": "8.08",
     "Product Link": "https://giant.sg/product/gldnrb-jasmine-r-5053262"
   },
   {
@@ -67433,7 +67478,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "15.80",
+    "Price": "13.43",
     "Product Link": "https://giant.sg/product/g-eagle-f-rice-5020771"
   },
   {
@@ -67852,11 +67897,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Pants SJP XL Carton 4 X 38s",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "4 x 38PAK",
     "Category": "",
-    "Price": "",
+    "Price": "75.40",
     "Product Link": "https://giant.sg/product/huggies-gold-pants-sjp-xl-38sx4-5101912"
   },
   {
@@ -68306,7 +68351,7 @@
     "Quantity": 1,
     "Volume": "1KG",
     "Category": "",
-    "Price": "4.50",
+    "Price": "3.83",
     "Product Link": "https://giant.sg/product/premium-red-rice-5055545"
   },
   {
@@ -68819,7 +68864,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "10.80",
+    "Price": "9.18",
     "Product Link": "https://giant.sg/product/nature-mix-rice-5021556"
   },
   {
@@ -69197,7 +69242,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "15.80",
+    "Price": "13.43",
     "Product Link": "https://giant.sg/product/australia-calrose-white-rice-5kg-5019987"
   },
   {
@@ -69728,7 +69773,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "17.80",
+    "Price": "15.13",
     "Product Link": "https://giant.sg/product/ru-j-rice-n-crop-5016452"
   },
   {
@@ -71168,7 +71213,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "14.50",
+    "Price": "12.33",
     "Product Link": "https://giant.sg/product/unpolished-brown-rice-5kg-5021025"
   },
   {
@@ -71762,7 +71807,7 @@
     "Quantity": 1,
     "Volume": "700G",
     "Category": "",
-    "Price": "3.50",
+    "Price": "2.98",
     "Product Link": "https://giant.sg/product/red-brown-rice-5055064"
   },
   {
@@ -72073,11 +72118,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "Jackfruit Chips 70g",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": "70G",
+    "Volume": "",
     "Category": "",
-    "Price": "2.95",
+    "Price": "",
     "Product Link": "https://giant.sg/product/jackfruit-chips-70g-5006449"
   },
   {
@@ -72329,7 +72374,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "9.60",
+    "Price": "8.16",
     "Product Link": "https://giant.sg/product/gfking-jasmine-rice-5051872"
   },
   {
@@ -72437,7 +72482,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "8.20",
+    "Price": "6.97",
     "Product Link": "https://giant.sg/product/royal-umbrella-thai-frag-brown-rice-2kg-5094024"
   },
   {
@@ -72878,7 +72923,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "18.50",
+    "Price": "15.73",
     "Product Link": "https://giant.sg/product/red-brown-cargo-rice-5kg-5021233"
   },
   {
@@ -73841,7 +73886,7 @@
     "Quantity": 1,
     "Volume": "360ML",
     "Category": "",
-    "Price": "8.75",
+    "Price": "7.90",
     "Product Link": "https://giant.sg/product/oneshot-tropical-mango-bot-1s-360ml-5111070"
   },
   {
@@ -73850,7 +73895,7 @@
     "Quantity": 1,
     "Volume": "750G",
     "Category": "",
-    "Price": "4.00",
+    "Price": "3.40",
     "Product Link": "https://giant.sg/product/origrain-brwn-rc-5031868"
   },
   {
@@ -74098,11 +74143,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Chardonnay",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "75",
     "Category": "",
-    "Price": "",
+    "Price": "22.00",
     "Product Link": "https://giant.sg/product/bareft-chard-5019031"
   },
   {
@@ -74836,11 +74881,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Tapes Diapers New Born 78s Up to 5kg",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "78EA",
     "Category": "",
-    "Price": "",
+    "Price": "20.25",
     "Product Link": "https://giant.sg/product/gold-diapers-nb-5063939"
   },
   {
@@ -74894,7 +74939,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "9.00",
+    "Price": "7.65",
     "Product Link": "https://giant.sg/product/akitakomachi-rc-5026616"
   },
   {
@@ -75452,7 +75497,7 @@
     "Quantity": 1,
     "Volume": "2KG",
     "Category": "",
-    "Price": "8.20",
+    "Price": "6.97",
     "Product Link": "https://giant.sg/product/royal-umbrella-mixed-rice-2kg-5094025"
   },
   {
@@ -76591,11 +76636,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Platinum Pants L 44s Bundle With Wipes Promo Pack",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "44EA",
     "Category": "",
-    "Price": "",
+    "Price": "26.95",
     "Product Link": "https://giant.sg/product/huggies-plat-nm-pants-l-44s-bw-wipes-pp-5099504"
   },
   {
@@ -76892,7 +76937,7 @@
     "Quantity": 1,
     "Volume": "750G",
     "Category": "",
-    "Price": "6.50",
+    "Price": "5.53",
     "Product Link": "https://giant.sg/product/origrain-org-brw-5031867"
   },
   {
@@ -78422,7 +78467,7 @@
     "Quantity": 1,
     "Volume": "1KG",
     "Category": "",
-    "Price": "4.10",
+    "Price": "3.49",
     "Product Link": "https://giant.sg/product/golden-peony-brown-rice1kg-5047382"
   },
   {
@@ -78760,11 +78805,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Pants SJP L Carton 4 X 44s",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "4 x 44PAK",
     "Category": "",
-    "Price": "",
+    "Price": "75.40",
     "Product Link": "https://giant.sg/product/huggies-gold-pants-sjp-l-44sx4-5101910"
   },
   {
@@ -78917,7 +78962,7 @@
     "Quantity": 1,
     "Volume": "1KG",
     "Category": "",
-    "Price": "4.40",
+    "Price": "3.74",
     "Product Link": "https://giant.sg/product/p-king-brown-rc-5017024"
   },
   {
@@ -79502,7 +79547,7 @@
     "Quantity": 1,
     "Volume": "500ML",
     "Category": "",
-    "Price": "2.00",
+    "Price": "1.95",
     "Product Link": "https://giant.sg/product/superior-light-soy-sauce-500ml-5008659"
   },
   {
@@ -80159,7 +80204,7 @@
     "Quantity": 1,
     "Volume": "5KG",
     "Category": "",
-    "Price": "10.95",
+    "Price": "9.31",
     "Product Link": "https://giant.sg/product/meadows-brown-rice-5kg-5097252"
   },
   {
@@ -80290,11 +80335,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Gold Diapers M Carton 3 X 66s",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "3 x 66PAK",
     "Category": "",
-    "Price": "",
+    "Price": "56.85",
     "Product Link": "https://giant.sg/product/huggies-gold-diapers-m-66sx3-5101913"
   },
   {
@@ -80596,11 +80641,11 @@
   },
   {
     "Site": "giant",
-    "Product Name": "",
+    "Product Name": "Sauvignon Blanc",
     "Quantity": 1,
-    "Volume": "",
+    "Volume": "75",
     "Category": "",
-    "Price": "",
+    "Price": "22.00",
     "Product Link": "https://giant.sg/product/bareft-sauv-blc-5016681"
   },
   {
@@ -92035,11 +92080,11 @@
   },
   {
     "Site": "The Liquor Shop",
-    "Product Name": "Campo Viejo Rioja Viura Blanco 2016 75cl",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": "750ml",
-    "Category": "Spanish White Wine",
-    "Price": "58.80",
+    "Volume": "",
+    "Category": "",
+    "Price": "",
     "Product Link": "https://www.theliquorshop.com.sg/products/campo-viejo-rioja-viura-blanco-2016-75cl?_pos=2&_sid=c3954d099&_ss=r"
   },
   {
@@ -93970,11 +94015,11 @@
   },
   {
     "Site": "gudsht",
-    "Product Name": "Rothbury Estate Premium Selection Cabernet Merlot",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": "Deep purple with a red hue.",
+    "Volume": "",
     "Category": "",
-    "Price": "18.00",
+    "Price": "",
     "Product Link": "https://www.gudsht.org/product-page/rothbury-premium-cabernet-merlot"
   },
   {
@@ -94258,11 +94303,11 @@
   },
   {
     "Site": "gudsht",
-    "Product Name": "Padre Azul Blanco Tequila",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": "700ML",
+    "Volume": "",
     "Category": "",
-    "Price": "115.00",
+    "Price": "",
     "Product Link": "https://www.gudsht.org/product-page/padre-azul-blanco"
   },
   {
@@ -95941,11 +95986,11 @@
   },
   {
     "Site": "NUTC",
-    "Product Name": "",
+    "Product Name": "Maggi Chili Sauce",
     "Quantity": 1,
-    "Volume": "",
-    "Category": "",
-    "Price": "",
+    "Volume": "500g",
+    "Category": "Chili Sauce",
+    "Price": "2.55",
     "Product Link": "https://www.fairprice.com.sg/product/maggi-chilli-sauce-500g-13024711"
   },
   {
@@ -96269,7 +96314,7 @@
     "Quantity": 1,
     "Volume": "1 pc",
     "Category": "Cookware",
-    "Price": "20.00",
+    "Price": "16.90",
     "Product Link": "https://www.fairprice.com.sg/product/tramontina-formia-20cm-frying-pan-non-stick-1-pc-90077106"
   },
   {
@@ -97871,7 +97916,7 @@
     "Quantity": 1,
     "Volume": "24 x 320ml",
     "Category": "Lager & Pilsner",
-    "Price": "49.95",
+    "Price": "45.80",
     "Product Link": "https://www.fairprice.com.sg/product/carlsberg-smooth-draught-can-beer-pilsner-24-x-320ml-13193265"
   },
   {
@@ -98123,7 +98168,7 @@
     "Quantity": 1,
     "Volume": "1 pc",
     "Category": "Cutlery",
-    "Price": "54.00",
+    "Price": "45.00",
     "Product Link": "https://www.fairprice.com.sg/product/tramontina-malibu-24-piece-flatware-set-1-pc-90107765"
   },
   {
@@ -99527,7 +99572,7 @@
     "Quantity": 1,
     "Volume": "750ml",
     "Category": "Red Wine",
-    "Price": "18.50",
+    "Price": "16.95",
     "Product Link": "https://www.fairprice.com.sg/product/vina-maipo-cabernet-sauvignon-merlot-750ml-11690254"
   },
   {
@@ -102722,7 +102767,7 @@
     "Quantity": 1,
     "Volume": "400g",
     "Category": "Chocolate Cookies",
-    "Price": "7.80",
+    "Price": "7.50",
     "Product Link": "https://www.fairprice.com.sg/product/coles-ultimate-40-triple-chocolate-chip-cookies-400g-13214083"
   },
   {
@@ -102794,7 +102839,7 @@
     "Quantity": 1,
     "Volume": "900g",
     "Category": "Body Wash",
-    "Price": "5.70",
+    "Price": "7.60",
     "Product Link": "https://www.fairprice.com.sg/product/dettol-anti-baterial-ph-balanced-body-wash-refill-cool-900g-13140847"
   },
   {
@@ -103109,7 +103154,7 @@
     "Quantity": 1,
     "Volume": "2 x 12 x 320ml (CTN)",
     "Category": "Lager & Pilsner",
-    "Price": "60.20",
+    "Price": "46.00",
     "Product Link": "https://www.fairprice.com.sg/product/ctn-carlsberg-green-label-24s-x-323ml-12670175"
   },
   {
@@ -103271,7 +103316,7 @@
     "Quantity": 1,
     "Volume": "2.5kg",
     "Category": "Rice",
-    "Price": "9.80",
+    "Price": "8.30",
     "Product Link": "https://www.fairprice.com.sg/product/fairprice-thai-red-unpolished-rice-2-5kg-13179707"
   },
   {
@@ -103649,7 +103694,7 @@
     "Quantity": 1,
     "Volume": "5kg",
     "Category": "Rice",
-    "Price": "10.65",
+    "Price": "9.95",
     "Product Link": "https://www.fairprice.com.sg/product/fairprice-thailand-rice-brown-unpolished-5kg-13181370"
   },
   {
@@ -104918,7 +104963,7 @@
     "Quantity": 1,
     "Volume": "200g",
     "Category": "Cucumbers & Lady Fingers",
-    "Price": "3.20",
+    "Price": "3.40",
     "Product Link": "https://www.fairprice.com.sg/product/pasar-organic-japanese-cucumber-200g-11869879"
   },
   {
@@ -106268,7 +106313,7 @@
     "Quantity": 1,
     "Volume": "400g",
     "Category": "Chocolate Cookies",
-    "Price": "7.80",
+    "Price": "7.50",
     "Product Link": "https://www.fairprice.com.sg/product/coles-ultimate-40-chocolate-salted-caramel-chip-cookies-400g-13214082"
   },
   {
@@ -106970,7 +107015,7 @@
     "Quantity": 1,
     "Volume": "750ml",
     "Category": "Red Wine",
-    "Price": "16.90",
+    "Price": "17.90",
     "Product Link": "https://www.fairprice.com.sg/product/vina-maipo-red-wine-cabernet-sauvignon-750ml-11690393"
   },
   {
@@ -107141,7 +107186,7 @@
     "Quantity": 1,
     "Volume": "12 x 320ml",
     "Category": "Lager & Pilsner",
-    "Price": "25.25",
+    "Price": "22.90",
     "Product Link": "https://www.fairprice.com.sg/product/13110701"
   },
   {
@@ -107740,11 +107785,11 @@
   },
   {
     "Site": "NUTC",
-    "Product Name": "Calbee Vegetable Fries Chips - Hot & Spicy",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": "45g",
-    "Category": "Fruit & Vegetable Chips",
-    "Price": "1.35",
+    "Volume": "",
+    "Category": "",
+    "Price": "",
     "Product Link": "https://www.fairprice.com.sg/product/calbee-vegetable-fries-hot-spicy-45g-11052279"
   },
   {
@@ -108014,7 +108059,7 @@
     "Quantity": 1,
     "Volume": "750ml",
     "Category": "Red Wine",
-    "Price": "33.00",
+    "Price": "21.90",
     "Product Link": "https://www.fairprice.com.sg/product/trivento-reserve-merry-red-wine-malbec-750ml-13205810"
   },
   {
@@ -108284,7 +108329,7 @@
     "Quantity": 1,
     "Volume": "12 x 320ml",
     "Category": "Lager & Pilsner",
-    "Price": "27.25",
+    "Price": "23.00",
     "Product Link": "https://www.fairprice.com.sg/product/carlsberg-green-label-beer-12s-x-323ml-12628583"
   },
   {
@@ -108374,7 +108419,7 @@
     "Quantity": 1,
     "Volume": "750ml",
     "Category": "Red Wine",
-    "Price": "18.90",
+    "Price": "22.00",
     "Product Link": "https://www.fairprice.com.sg/product/just-wine-red-wine-cabernet-sauvignon-750ml-13185402"
   },
   {
@@ -108590,7 +108635,7 @@
     "Quantity": 1,
     "Volume": "500g",
     "Category": "Cucumbers & Lady Fingers",
-    "Price": "3.90",
+    "Price": "3.70",
     "Product Link": "https://www.fairprice.com.sg/product/pasar-organic-cucumber-500g-11869588"
   },
   {
@@ -108752,7 +108797,7 @@
     "Quantity": 1,
     "Volume": "12 x 330ml",
     "Category": "Lager & Pilsner",
-    "Price": "33.90",
+    "Price": "29.95",
     "Product Link": "https://www.fairprice.com.sg/product/asahi-beer-super-dry-12-x-330ml-13207340"
   },
   {
@@ -109747,11 +109792,11 @@
   },
   {
     "Site": "Oak & Barrel",
-    "Product Name": "Black Tears Spiced Rum Gift with Purchase 700ml",
+    "Product Name": "",
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "68.00",
+    "Price": "",
     "Product Link": "https://oakandbarrel.com.sg/products/black-tears-spiced-rum-gift-with-purchase?_pos=5&_sid=cb5c6cfce&_ss=r"
   },
   {
@@ -110327,7 +110372,7 @@
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "25.95",
+    "Price": "29.80",
     "Product Link": "https://oakandbarrel.com.sg/products/red-wine-umeshu?_pos=2&_sid=12ab53adf&_ss=r"
   },
   {
@@ -110575,11 +110620,11 @@
   },
   {
     "Site": "Oak & Barrel",
-    "Product Name": "Black Tears Spiced Rum Gift with Purchase 700ml",
+    "Product Name": "",
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "68.00",
+    "Price": "",
     "Product Link": "https://oakandbarrel.com.sg/products/black-tears-spiced-rum-gift-with-purchase?_pos=5&_sid=210e77d0e&_ss=r"
   },
   {
@@ -112753,11 +112798,11 @@
   },
   {
     "Site": "Oak & Barrel",
-    "Product Name": "Black Tears Spiced Rum Gift with Purchase 700ml",
+    "Product Name": "",
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "68.00",
+    "Price": "",
     "Product Link": "https://oakandbarrel.com.sg/products/black-tears-spiced-rum-gift-with-purchase?_pos=3&_sid=4625f29a5&_ss=r"
   },
   {
@@ -112933,11 +112978,11 @@
   },
   {
     "Site": "Oak & Barrel",
-    "Product Name": "Black Tears Spiced Rum Gift with Purchase 700ml",
+    "Product Name": "",
     "Quantity": 1,
     "Volume": "",
     "Category": "",
-    "Price": "68.00",
+    "Price": "",
     "Product Link": "https://oakandbarrel.com.sg/products/black-tears-spiced-rum-gift-with-purchase?_pos=1&_sid=1a3b35989&_ss=r"
   },
   {
@@ -125681,7 +125726,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "543.00",
+    "Price": "598.00",
     "Product Link": "https://www.oaks.com.sg/p/17984/Maison-Lucien-Le-Moine-Gevrey-Chambertin-Lavaut-St-Jacques-1er-Cru-2005"
   },
   {
@@ -125762,7 +125807,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "271.00",
+    "Price": "308.00",
     "Product Link": "https://www.oaks.com.sg/p/17471/Maison-Lucien-Le-Moine-Morey-Saint-Denis-Clos-des-Ormes-1er-Cru-2012"
   },
   {
@@ -125906,7 +125951,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "451.00",
+    "Price": "488.00",
     "Product Link": "https://www.oaks.com.sg/p/18486/Maison-Lucien-Le-Moine-Clos-de-Vougeot-Grand-Cru-2009"
   },
   {
@@ -126509,7 +126554,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "598.00",
+    "Price": "635.00",
     "Product Link": "https://www.oaks.com.sg/p/17472/Maison-Lucien-Le-Moine-Mazis-Chambertin-Grand-Cru-2007"
   },
   {
@@ -127729,11 +127774,11 @@
   },
   {
     "Site": "Oaks Cellar",
-    "Product Name": "Glenrothes 18 Year Old Soleo Single Malt Whisky 700ml",
+    "Product Name": "",
     "Quantity": 1,
-    "Volume": 70.0,
+    "Volume": "",
     "Category": "",
-    "Price": "271.00",
+    "Price": "",
     "Product Link": "https://www.oaks.com.sg/p/19158/Glenrothes-18-Year-Old-Soleo-Single-Malt-Whisky-700ml"
   },
   {
@@ -129056,7 +129101,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "244.00",
+    "Price": "290.00",
     "Product Link": "https://www.oaks.com.sg/p/19517/Maison-Lucien-Le-Moine-Morey-Saint-Denis-Clos-des-Ormes-1er-Cru-2013"
   },
   {
@@ -129695,7 +129740,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "451.00",
+    "Price": "488.00",
     "Product Link": "https://www.oaks.com.sg/p/17776/Maison-Lucien-Le-Moine-Clos-de-Vougeot-Grand-Cru-2008"
   },
   {
@@ -129956,7 +130001,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "262.00",
+    "Price": "299.00",
     "Product Link": "https://www.oaks.com.sg/p/19589/Maison-Lucien-Le-Moine-Morey-Saint-Denis-Clos-des-Ormes-1er-Cru-2011"
   },
   {
@@ -130001,7 +130046,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "235.00",
+    "Price": "290.00",
     "Product Link": "https://www.oaks.com.sg/p/18270/Maison-Lucien-Le-Moine-Morey-Saint-Denis-Clos-des-Ormes-1er-Cru-2014"
   },
   {
@@ -130784,7 +130829,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "842.00",
+    "Price": "902.00",
     "Product Link": "https://www.oaks.com.sg/p/13667/Maison-Lucien-Le-Moine-Chambertin-Clos-de-Beze-Grand-Cru-2008"
   },
   {
@@ -131063,7 +131108,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "451.00",
+    "Price": "488.00",
     "Product Link": "https://www.oaks.com.sg/p/13752/Maison-Lucien-Le-Moine-Clos-de-Vougeot-Grand-Cru-2010"
   },
   {
@@ -132512,7 +132557,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "616.00",
+    "Price": "690.00",
     "Product Link": "https://www.oaks.com.sg/p/14654/Maison-Lucien-Le-Moine-Griotte-Chambertin-Grand-Cru-2012"
   },
   {
@@ -133340,7 +133385,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "672.00",
+    "Price": "966.00",
     "Product Link": "https://www.oaks.com.sg/p/18658/Anne-Gros-Clos-Vougeot-le-Grand-Maupertui-Grand-Cru-2007"
   },
   {
@@ -134213,7 +134258,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "244.00",
+    "Price": "281.00",
     "Product Link": "https://www.oaks.com.sg/p/19579/Maison-Lucien-Le-Moine-Morey-Saint-Denis-Clos-des-Ormes-1er-Cru-2016"
   },
   {
@@ -134285,7 +134330,7 @@
     "Quantity": 1,
     "Volume": 75.0,
     "Category": "",
-    "Price": "225.00",
+    "Price": "271.00",
     "Product Link": "https://www.oaks.com.sg/p/18985/Maison-Lucien-Le-Moine-Morey-Saint-Denis-Clos-des-Ormes-1er-Cru-2015"
   },
   {
