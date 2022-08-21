@@ -43,10 +43,12 @@ class db:
         logger.info(f"Datebase Class Created With {str(mysql)}")
 
     def getCursor(self):
+        self.mydb.reconnect()
         return self.mydb.cursor()
 
 
     def select(self, table, search=False, query=None):
+        self.mydb.reconnect()
         cursor = self.mydb.cursor(buffered=True,dictionary=True)
         print (query)
         if query is None:
