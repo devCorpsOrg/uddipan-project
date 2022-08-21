@@ -120,3 +120,26 @@ def stopScrapper():
     r = requests.get(url = url, headers={'key': 'MyApiKEy'})
 
     return  str(r)
+
+@app.route('/startScrapperLinks',methods = ['POST', 'GET'])
+def startScrapperLinks():
+    key = request.headers.get("key")
+    valid = isvalid(key)
+    if not valid:
+        return error("Bad Request", 400)
+    url = "http://188.166.181.245:3575/startScrapperLinks"
+    r = requests.get(url = url, headers={'key': 'MyApiKEy'})
+
+    return str(r)
+
+
+@app.route('/stopScrapperLinks',methods = ['POST', 'GET'])
+def stopScrapperLinks():
+    key = request.headers.get("key")
+    valid = isvalid(key)
+    if not valid:
+        return error("Bad Request", 400)
+    url = "http://188.166.181.245:3575/stopScrapperLinks"
+    r = requests.get(url = url, headers={'key': 'MyApiKEy'})
+
+    return  str(r)

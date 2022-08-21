@@ -86,3 +86,23 @@ def stopScrapper():
     bashCommand = "sudo pm2 stop scrapper"
     os.popen(bashCommand)
     return respon("Stopped")#from attr import field
+
+@app.route('/startScrapperLinks',methods = ['POST', 'GET'])
+def startScrapperLinks():
+    key = request.headers.get("key")
+    valid = isvalid(key)
+    if not valid:
+        return error("Bad Request", 400)
+    bashCommand = "pm2 start scrapper-links"
+    os.popen(bashCommand)
+    return respon("Started")#from attr import field
+
+@app.route('/stopScrapperLinks',methods = ['POST', 'GET'])
+def stopScrapperLinks():
+    key = request.headers.get("key")
+    valid = isvalid(key)
+    if not valid:
+        return error("Bad Request", 400)
+    bashCommand = "pm2 stop scrapper-links"
+    os.popen(bashCommand)
+    return respon("Stopped")#from attr import field
