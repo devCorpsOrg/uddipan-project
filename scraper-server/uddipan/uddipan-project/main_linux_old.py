@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from sqlalchemy import create_engine
-from links import allLinks
+import allLinks
 import pandas as pd
 import pymysql
 import openpyxl
