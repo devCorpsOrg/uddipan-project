@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from sqlalchemy import create_engine
-import allLinks
+from allLinks import *
 import pandas as pd
 import pymysql
 import openpyxl
@@ -41,27 +41,6 @@ finalData_16 = []
 finalData_17 = []
 finalData_18 = []
 finalData_19 = []
-
-
-uniqueLnks_1 = allLinks.lnk["uniqueLnks_1"]
-uniqueLnks_2 = allLinks.lnk["uniqueLnks_2"]
-uniqueLnks_3 = allLinks.lnk["uniqueLnks_3"]
-uniqueLnks_4 = allLinks.lnk["uniqueLnks_4"]
-uniqueLnks_5 = allLinks.lnk["uniqueLnks_5"]
-uniqueLnks_6 = allLinks.lnk["uniqueLnks_6"]
-uniqueLnks_7 = allLinks.lnk["uniqueLnks_7"]
-uniqueLnks_8 = allLinks.lnk["uniqueLnks_8"]
-uniqueLnks_9 = allLinks.lnk["uniqueLnks_9"]
-uniqueLnks_10 = allLinks.lnk["uniqueLnks_10"]
-uniqueLnks_11 = allLinks.lnk["uniqueLnks_11"]
-uniqueLnks_12 = allLinks.lnk["uniqueLnks_12"]
-uniqueLnks_13 = allLinks.lnk["uniqueLnks_13"]
-uniqueLnks_14 = allLinks.lnk["uniqueLnks_14"]
-uniqueLnks_15 = allLinks.lnk["uniqueLnks_15"]
-uniqueLnks_16 = allLinks.lnk["uniqueLnks_16"]
-uniqueLnks_17 = allLinks.lnk["uniqueLnks_17"]
-uniqueLnks_18 = allLinks.lnk["uniqueLnks_18"]
-uniqueLnks_19 = allLinks.lnk["uniqueLnks_19"]
 
 print("--------------------------------------------")
 
