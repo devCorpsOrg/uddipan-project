@@ -55,6 +55,15 @@ with open("uniqueLnks_18.txt", "r") as output:
 with open("uniqueLnks_19.txt", "r") as output:
     uniqueLnks_19 = output.read()
 
+with open("uniqueLnks_20.txt", "r") as output:
+    uniqueLnks_20 = output.read()
+
+with open("uniqueLnks_21.txt", "r") as output:
+    uniqueLnks_21 = output.read()
+
+with open("uniqueLnks_22.txt", "r") as output:
+    uniqueLnks_22 = output.read()
+
 ul1 = uniqueLnks_1.split(",")
 ul2 = uniqueLnks_2.split(",")
 ul3 = uniqueLnks_3.split(",")
@@ -74,6 +83,9 @@ ul16 = uniqueLnks_16.split(",")
 ul17 = uniqueLnks_17.split(",")
 ul18 = uniqueLnks_18.split(",")
 ul19 = uniqueLnks_19.split(",")
+ul20 = uniqueLnks_20.split(",")
+ul21 = uniqueLnks_21.split(",")
+ul22 = uniqueLnks_22.split(",")
 
 uniqueLnks_1 = []
 uniqueLnks_2 = []
@@ -94,6 +106,9 @@ uniqueLnks_16 = []
 uniqueLnks_17 = []
 uniqueLnks_18 = []
 uniqueLnks_19 = []
+uniqueLnks_20 = []
+uniqueLnks_21 = []
+uniqueLnks_22 = []
 
 for lnk in ul1:
     slnk = lnk.replace("'", "")
@@ -208,3 +223,21 @@ for lnk in ul19:
     slnk = slnk.replace("[", "")
     slnk = slnk.replace("]", "")
     uniqueLnks_19.append(slnk)
+
+for lnk in ul20:
+    slnk = lnk.replace("'", "")
+    slnk = slnk.replace("[", "")
+    slnk = slnk.replace("]", "")
+    uniqueLnks_20.append(slnk)
+
+for lnk in ul21:
+    slnk = lnk.replace("'", "")
+    slnk = slnk.replace("[", "")
+    slnk = slnk.replace("]", "")
+    uniqueLnks_21.append(slnk)
+
+for lnk in ul22:
+    slnk = lnk.replace("'", "")
+    slnk = slnk.replace("[", "")
+    slnk = slnk.replace("]", "")
+    uniqueLnks_22.append(slnk)

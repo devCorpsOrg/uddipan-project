@@ -73,10 +73,14 @@ def getData():
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
-    pname = request.args.get('ProductName')
+    pname = request.form.get('ProductName')
+    # pname = request.args.get('ProductName')
+    quantity= request.form.get('Quantity')
+    # quantity = request.args.get('Quantity')
     q = {
         'query': 'Product Name',
         'value': pname,
+        'value2': quantity,
         'flag' : True
     }
     dataList = db_connection.select('Product_prices', True, q)
@@ -89,7 +93,7 @@ def getTableData():
     if not valid:
         return error("Bad Request", 400)
     fName = ''
-    fName = request.args.get('ProductName')
+    fName = request.form.get('ProductName')
     q = {
         "query": fName,
         'flag' : False
