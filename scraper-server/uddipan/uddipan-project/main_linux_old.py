@@ -54,7 +54,7 @@ print("Start Time :-", ct)
 print("--------------------------------------------")
 
 
-CHROMEDRIVER_PATH = '/usr/bin/chromedriver'
+CHROMEDRIVER_PATH = '/usr/local/bin/chromedriver'
 
 options = Options()
 options.add_argument("--headless")
