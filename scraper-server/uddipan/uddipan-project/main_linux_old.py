@@ -60,7 +60,9 @@ options = Options()
 options.add_argument("--headless")
 options.add_argument('--no-sandbox')
 
-driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+# driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 
 # ------------------------------------------
