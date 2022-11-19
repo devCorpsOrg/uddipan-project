@@ -1468,7 +1468,7 @@ def get_info_21(url):
 
     try:
         catagory = driver.find_elements(By.XPATH, '//td[@class="wine_table_columns_second"][1]')
-        catagory = catagory[0].text
+        catagory = ""
     except:
         print("Catagory not Found for - ", url)
 
