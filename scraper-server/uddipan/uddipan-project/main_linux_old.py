@@ -1922,8 +1922,8 @@ print("End Time :-", ct1)
 
 ct = str(ct)
 ct1 = str(ct1)
-logFile.write(str("Start Time = ", ct))
-logFile.write(str("Stop Time = " + ct1))
+logFile.write(str("Start Time = " + str(ct)))
+logFile.write(str("Stop Time = " + str(ct1)))
 
 logFile.close()
 
