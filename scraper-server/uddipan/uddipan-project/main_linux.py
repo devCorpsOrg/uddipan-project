@@ -170,6 +170,7 @@ def get_info_1(url, driver):
             EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/main/div[2]/div/div[3]/div[1]/h1/span'))
         )
         productName2  = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -266,6 +267,7 @@ def get_info_2(url, driver):
         )
         productName2 = productName2.text
         productName2 = productName2.replace("ï¿½", "")
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -344,6 +346,7 @@ def get_info_3(url, driver):
             EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div[1]/div/div[2]/h3'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -422,6 +425,7 @@ def get_info_4(url, driver):
             EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div[1]/div[2]/h3'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -494,6 +498,7 @@ def get_info_5(url, driver):
             EC.presence_of_element_located((By.XPATH, '//*[@id="product-page"]/div[2]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -570,6 +575,7 @@ def get_info_6(url, driver):
             EC.presence_of_element_located((By.XPATH, '//*[@id="product-info-content"]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 

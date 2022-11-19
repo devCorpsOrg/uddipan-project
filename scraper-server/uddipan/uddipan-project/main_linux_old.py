@@ -94,6 +94,7 @@ def get_info_1(url):
             EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/main/div[2]/div/div[3]/div[1]/h1/span'))
         )
         productName2  = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -165,6 +166,8 @@ def get_info_2(url):
             EC.presence_of_element_located((By.XPATH, '/html/body/app-root/div/app-singleproduct/div/div/div/div[2]/div[2]/h4'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("ï¿½", "")
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -230,6 +233,7 @@ def get_info_3(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div[1]/div/div[2]/h3'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -295,6 +299,7 @@ def get_info_4(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div[1]/div[2]/h3'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -355,6 +360,7 @@ def get_info_5(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="product-page"]/div[2]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -418,6 +424,7 @@ def get_info_6(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="product-info-content"]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -477,6 +484,7 @@ def get_info_7(url):
             EC.presence_of_element_located((By.XPATH, '/html/body/section[3]/div/div/div[2]/div[1]/h3'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -539,6 +547,7 @@ def get_info_8(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="blade-app"]/div[2]/div[2]/div/div/div[2]/div/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -604,6 +613,7 @@ def get_info_9(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="product-info-content"]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -666,6 +676,7 @@ def get_info_10(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="shopify-section-static-product"]/section/article/div[2]/div[1]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -737,6 +748,7 @@ def get_info_11(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="TPAMultiSection_jjnx2pgg"]/div/div/article/div[1]/section[2]/div[1]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -806,6 +818,7 @@ def get_info_12(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[3]/span/span'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
@@ -881,6 +894,7 @@ def get_info_13(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="ProductSection--product-template"]/div[4]/div[2]/div/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
@@ -944,6 +958,7 @@ def get_info_14(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="akeeba-renderjoomla"]/div/div/div[1]/div[2]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
@@ -1015,6 +1030,7 @@ def get_info_15(url):
             EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/main/div/div/div/div/div[2]/div[2]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="product-4216"]/div[2]/h1').text
@@ -1088,6 +1104,7 @@ def get_info_16(url):
         productName2 = productName2.text
         productName_2 = productName2.split("/")
         productName2 = productName_2[-1]
+        productName2 = productName2.replace("'", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -1155,6 +1172,7 @@ def get_info_17(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div[1]/div[2]/div/div[1]'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
@@ -1218,6 +1236,7 @@ def get_info_18(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="product_header"]/div[2]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
@@ -1290,6 +1309,7 @@ def get_info_19(url):
             EC.presence_of_element_located((By.XPATH, '//*[@id="ProductSection"]/div/div[2]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[3]/div[3]/div[1]/div/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/p[2]').text
@@ -1358,6 +1378,7 @@ def get_info_20(url):
             EC.presence_of_element_located((By.XPATH, '//h1[@class="product-title mt-3"]'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
@@ -1427,6 +1448,7 @@ def get_info_21(url):
             EC.presence_of_element_located((By.XPATH, '//div[@class="product-block product-block--header product-single__header small--hide"]/h1'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="ProductSection-template--14365883957351__main-4585757245543"]/div/div/div[1]/h1').text
@@ -1526,6 +1548,7 @@ def get_info_22(url):
             EC.presence_of_element_located((By.XPATH, '//div[@class="prddetailtitle ng-binding"]'))
         )
         productName2 = productName2.text
+        productName2 = productName2.replace("'", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="ProductSection-template--14365883957351__main-4585757245543"]/div/div/div[1]/h1').text
