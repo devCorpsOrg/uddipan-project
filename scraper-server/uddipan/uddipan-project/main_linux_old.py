@@ -1867,8 +1867,6 @@ clean_data = [*clean_data_1, *clean_data_2, *clean_data_3, *clean_data_4, *clean
 print(clean_data)
 print(len(clean_data))
 
-logFile = open("scrapperLogs.txt", "a")
-
 # Data Saving -
 
 # Saving the Data to Excel Sheet -
