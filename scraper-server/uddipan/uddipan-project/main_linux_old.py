@@ -1467,12 +1467,6 @@ def get_info_21(url):
         print("Volume Not found for - ", url)
 
     try:
-        catagory = driver.find_elements(By.XPATH, '//td[@class="wine_table_columns_second"][1]')
-        catagory = ""
-    except:
-        print("Catagory not Found for - ", url)
-
-    try:
         price = driver.find_element(By.XPATH, '//span[@class="product__price"]/span[2]').text
         price = price.replace("$", "")
     except:
