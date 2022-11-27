@@ -1467,12 +1467,6 @@ def get_info_21(url):
         print("Volume Not found for - ", url)
 
     try:
-        catagory = driver.find_elements(By.XPATH, '//td[@class="wine_table_columns_second"][1]')
-        catagory = ""
-    except:
-        print("Catagory not Found for - ", url)
-
-    try:
         price = driver.find_element(By.XPATH, '//span[@class="product__price"]/span[2]').text
         price = price.replace("$", "")
     except:
@@ -1618,7 +1612,7 @@ for sn in site_name:
             age_verification_1()
         except:
             print("Age verification failed")
-        for lnk2 in uniqueLnks_1[0:2]:
+        for lnk2 in uniqueLnks_1:
             get_info_1(lnk2)
             print("Final Data :- ", finalData_1[-1])
             print("No of Product Info. :- ", len(finalData_1))
@@ -1631,7 +1625,7 @@ for sn in site_name:
             age_verification_2()
         except:
             print("Age verification  failed")
-        for lnk2 in uniqueLnks_2[0:2]:
+        for lnk2 in uniqueLnks_2:
             get_info_2(lnk2)
             print("Final Data :- ", finalData_2[-1])
             print("No of Product Info. :- ", len(finalData_2))
@@ -1644,7 +1638,7 @@ for sn in site_name:
             age_verification_3()
         except:
             print("Age verification  failed")
-        for lnk2 in uniqueLnks_3[0:2]:
+        for lnk2 in uniqueLnks_3:
             get_info_3(lnk2)
             print("Final Data :- ", finalData_3[-1])
             print("No of Product Info. :- ", len(finalData_3))
@@ -1657,7 +1651,7 @@ for sn in site_name:
             age_verification_4()
         except:
             print("Age verification  failed")
-        for lnk2 in uniqueLnks_4[0:2]:
+        for lnk2 in uniqueLnks_4:
             get_info_4(lnk2)
             print("Final Data :- ", finalData_4[-1])
             print("No of Product Info. :- ", len(finalData_4))
@@ -1666,7 +1660,7 @@ for sn in site_name:
         clean_data_4 = [i for i in clean_data_4 if not (i['Product Name'] == "")]
 
     elif sn == "https://chuansenghuat.com.sg/":
-        for lnk2 in uniqueLnks_5[0:2]:
+        for lnk2 in uniqueLnks_5:
             get_info_5(lnk2)
             print("Final Data :- ", finalData_5[-1])
             print("No of Product Info. :- ", len(finalData_5))
@@ -1675,7 +1669,7 @@ for sn in site_name:
         clean_data_5 = [i for i in clean_data_5 if not (i['Product Name'] == "")]
 
     elif sn == "https://coldstorage.com.sg/":
-        for lnk2 in uniqueLnks_6[0:2]:
+        for lnk2 in uniqueLnks_6:
             r = requests.get(lnk2)
             stat_code = r.status_code
             if stat_code == 200:
@@ -1689,7 +1683,7 @@ for sn in site_name:
         clean_data_6 = [i for i in clean_data_6 if not (i['Product Name'] == "")]
 
     elif sn == "https://shop.cornerstonewines.com/":
-        for lnk2 in uniqueLnks_7[0:2]:
+        for lnk2 in uniqueLnks_7:
             get_info_7(lnk2)
             print("Final Data :- ", finalData_7[-1])
             print("No of Product Info. :- ", len(finalData_7))
@@ -1698,7 +1692,7 @@ for sn in site_name:
         clean_data_7 = [i for i in clean_data_7 if not (i['Product Name'] == "")]
 
     elif sn == "https://getit.changirecommends.com/":
-        for lnk2 in uniqueLnks_8[0:2]:
+        for lnk2 in uniqueLnks_8:
             get_info_8(lnk2)
             print("Final Data :- ", finalData_8[-1])
             print("No of Product Info. :- ", len(finalData_8))
@@ -1706,7 +1700,7 @@ for sn in site_name:
         clean_data_8 = [i for n, i in enumerate(finalData_8) if i not in finalData_8[n + 1:]]
         clean_data_8 = [i for i in clean_data_8 if not (i['Product Name'] == "")]
     elif sn == "https://giant.sg/":
-        for lnk2 in uniqueLnks_9[0:2]:
+        for lnk2 in uniqueLnks_9:
             get_info_9(lnk2)
             print("Final Data :- ", finalData_9[-1])
             print("No of Product Info. :- ", len(finalData_9))
@@ -1715,7 +1709,7 @@ for sn in site_name:
         clean_data_9 = [i for i in clean_data_9 if not (i['Product Name'] == "")]
 
     elif sn == "https://www.theliquorshop.com.sg/":
-        for lnk2 in uniqueLnks_10[0:2]:
+        for lnk2 in uniqueLnks_10:
             get_info_10(lnk2)
             print("Final Data :- ", finalData_10[-1])
             print("No of Product Info. :- ", len(finalData_10))
@@ -1724,7 +1718,7 @@ for sn in site_name:
         clean_data_10 = [i for i in clean_data_10 if not (i['Product Name'] == "")]
 
     elif sn == "https://www.gudsht.org/":
-        for lnk2 in uniqueLnks_11[0:2]:
+        for lnk2 in uniqueLnks_11:
             get_info_11(lnk2)
             print("Final Data :- ", finalData_11[-1])
             print("No of Product Info. :- ", len(finalData_11))
@@ -1733,7 +1727,7 @@ for sn in site_name:
         clean_data_11 = [i for i in clean_data_11 if not (i['Product Name'] == "")]
 
     elif sn == "https://www.fairprice.com.sg/":
-        for lnk2 in uniqueLnks_12[0:2]:
+        for lnk2 in uniqueLnks_12:
             get_info_12(lnk2)
             print("Final Data :- ", finalData_12[-1])
             print("No of Product Info. :- ", len(finalData_12))
@@ -1746,7 +1740,7 @@ for sn in site_name:
             age_verification_13()
         except:
             print("Age verification failed !")
-        for lnk2 in uniqueLnks_13[0:2]:
+        for lnk2 in uniqueLnks_13:
             get_info_13(lnk2)
             print("Final Data :- ", finalData_13[-1])
             print("No of Product Info. :- ", len(finalData_13))
@@ -1755,7 +1749,7 @@ for sn in site_name:
         clean_data_13 = [i for i in clean_data_13 if not (i['Product Name'] == "")]
 
     elif sn == "https://www.liquorbar.sg/":
-        for lnk2 in uniqueLnks_14[0:2]:
+        for lnk2 in uniqueLnks_14:
             get_info_14(lnk2)
             print("Final Data :- ", finalData_14[-1])
             print("No of Product Info. :- ", len(finalData_14))
@@ -1768,7 +1762,7 @@ for sn in site_name:
             age_verification_15()
         except:
             print("Age verification failed !")
-        for lnk2 in uniqueLnks_15[0:2]:
+        for lnk2 in uniqueLnks_15:
             get_info_15(lnk2)
             print("Final Data :- ", finalData_15[-1])
             print("No of Product Info. :- ", len(finalData_15))
@@ -1781,7 +1775,7 @@ for sn in site_name:
             age_verification_16()
         except:
             print("Age verification failed !")
-        for lnk2 in uniqueLnks_16[0:2]:
+        for lnk2 in uniqueLnks_16:
             get_info_16(lnk2)
             print("Final Data :- ", finalData_16[-1])
             print("No of Product Info. :- ", len(finalData_16))
@@ -1794,7 +1788,7 @@ for sn in site_name:
             age_verification_17()
         except:
             print("Age verification failed !")
-        for lnk2 in uniqueLnks_17[0:2]:
+        for lnk2 in uniqueLnks_17:
             get_info_17(lnk2)
             print("Final Data :- ", finalData_17[-1])
             print("No of Product Info. :- ", len(finalData_17))
@@ -1803,7 +1797,7 @@ for sn in site_name:
         clean_data_17 = [i for i in clean_data_17 if not (i['Product Name'] == "")]
 
     elif sn == "https://www.oaks.com.sg/":
-        for lnk2 in uniqueLnks_18[0:2]:
+        for lnk2 in uniqueLnks_18:
             get_info_18(lnk2)
             print("Final Data :- ", finalData_18[-1])
             print("No of Product Info. :- ", len(finalData_18))
@@ -1816,7 +1810,7 @@ for sn in site_name:
             age_verification_19()
         except:
             print("Age verification failed !")
-        for lnk2 in uniqueLnks_19[0:2]:
+        for lnk2 in uniqueLnks_19:
             get_info_19(lnk2)
             print("Final Data :- ", finalData_19[-1])
             print("No of Product Info. :- ", len(finalData_19))
@@ -1829,7 +1823,7 @@ for sn in site_name:
             age_verification_20()
         except:
             print("Age verification failed !")
-        for lnk2 in uniqueLnks_20[0:2]:
+        for lnk2 in uniqueLnks_20:
             get_info_20(lnk2)
             print("Final Data :- ", finalData_20[-1])
             print("No of Product Info. :- ", len(finalData_20))
@@ -1842,7 +1836,7 @@ for sn in site_name:
             age_verification_22()
         except:
             print("Age verification failed !")
-        for lnk2 in uniqueLnks_21[0:2]:
+        for lnk2 in uniqueLnks_21:
             get_info_21(lnk2)
             print("Final Data :- ", finalData_21[-1])
             print("No of Product Info. :- ", len(finalData_21))
@@ -1855,7 +1849,7 @@ for sn in site_name:
             age_verification_22()
         except Exception as e:
             print("Age verification failed !", e)
-        for lnk2 in uniqueLnks_22[0:2]:
+        for lnk2 in uniqueLnks_22:
             get_info_22(lnk2)
             print("Final Data :- ", finalData_22[-1])
             print("No of Product Info. :- ", len(finalData_22))
