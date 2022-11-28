@@ -1,0 +1,18 @@
+2022-10-22 19:39:16.020 | ERROR    | main:Error:37 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-10-22 19:39:16.024 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-10-22 19:39:16.521 | ERROR    | main:Error:37 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-10-22 19:39:16.522 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Not Found   code 404
+
+2022-10-22 19:39:16.537 | ERROR    | main:Error:37 - 
+ HTTPException Error : 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+
+2022-10-22 19:39:16.537 | ERROR    | main:error:49 - 
+Error(name, code)->-----------name Not Found   code 404
+
