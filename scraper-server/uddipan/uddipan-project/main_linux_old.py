@@ -166,8 +166,6 @@ def get_info_2(url):
             EC.presence_of_element_located((By.XPATH, '/html/body/app-root/div/app-singleproduct/div/div/div/div[2]/div[2]/h4'))
         )
         productName2 = productName2.text
-        productName2 = productName2.replace("ï¿½", "")
-        productName2 = productName2.replace("’", "")
     except:
         print("Product Name not found for - ", url)
 
@@ -178,7 +176,7 @@ def get_info_2(url):
         print("Volume Not found for - ", url)
 
     try:
-        catagory = driver.find_element(By.XPATH, '/html/body/app-root/div/app-singleproduct/div/div/div/div[2]/div[2]/p[1]').text
+        catagory = driver.find_element(By.XPATH, '/html/body/div[1]/div/div[1]/div[2]/main/div/div[1]/div[1]/a[3]').text
         catagory = catagory.split(",") and catagory.split(" ")
         catagory = catagory[1]
     except:
@@ -815,10 +813,9 @@ def get_info_12(url):
 
     try:
         productName2 = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[3]/span/span'))
+            EC.presence_of_element_located((By.XPATH, '//span[@class="sc-1bsd7ul-1 djlKtC"]'))
         )
         productName2 = productName2.text
-        productName2 = productName2.replace("’", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
@@ -826,7 +823,7 @@ def get_info_12(url):
             print("Product Name not found for - ", url)
 
     try:
-        volume = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[3]/div/span[1]/span').text
+        volume = driver.find_element(By.XPATH, '//span[@class="sc-13n2dsm-10 zrRPi quantity"]/span').text
     except:
         try:
             volume = driver.find_element(By.XPATH, '//*[@id="shopify-section-static-product"]/section/article/div[2]/div[3]/div[1]/table/tbody/tr[2]/td[2]').text
@@ -837,7 +834,7 @@ def get_info_12(url):
                 print("Volume Not found for - ", url)
 
     try:
-        catagory = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[1]/div[1]/a[4]').text
+        catagory = driver.find_element(By.XPATH, '//div[@class="sc-scqi9x-2 itznBS"]/a[3]').text
     except:
         try:
             catagory = driver.find_element(By.XPATH, '//*[@id="shopify-section-static-product"]/section/article/div[2]/div[3]/div[1]/table/tbody/tr[4]/td[2]/a').text
@@ -845,7 +842,7 @@ def get_info_12(url):
             print("Catagory not Found for - ", url)
 
     try:
-        price = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[1]/span/span').text
+        price = driver.find_element(By.XPATH, '//span[@class="sc-1bsd7ul-1 sc-13n2dsm-5 kxEbZl deQJPo"]').text
         price = price.replace("$", "")
     except:
         try:
@@ -1169,35 +1166,34 @@ def get_info_17(url):
 
     try:
         productName2 = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/div[1]/div[2]/div/div[1]'))
+            EC.presence_of_element_located((By.XPATH, '//h2[@class="product__title"]'))
         )
         productName2 = productName2.text
-        productName2 = productName2.replace("’", "")
     except:
         try:
-            productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
+            productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
         except:
             print("Product Name not found for - ", url)
 
     try:
-        volume = driver.find_element(By.XPATH, '/html/body/div[6]/div/div/div[1]/div[2]/div/div[3]/div[1]/select/option').text
+        volume = driver.find_element(By.XPATH, '//option[@selected="selected"]').text
     except:
         try:
-            volume = driver.find_element(By.XPATH, '/html/body/div[6]/div/div/div[1]/div[2]/div/div[3]/div[1]/select/option').text
+            volume = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div/span[1]/span').text
         except:
             print("Volume Not found for - ", url)
 
     try:
-        catagory = driver.find_element(By.XPATH, '//*[@id="product-properties"]/tbody/tr[6]/td[2]/strong/a').text
+        catagory = driver.find_element(By.XPATH, '//div[@class="sc-scqi9x-2 itznBS"]/a[3]').text
     except:
         print("Catagory not Found for - ", url)
 
     try:
-        price = driver.find_element(By.XPATH, '//*[@id="content"]/div[1]/div[2]/div/ul/li/div').text
+        price = driver.find_element(By.XPATH, '//span[@class="product__price product__price--new money"]').text
         price = price.replace("$", "")
     except:
         try:
-            price = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div[2]/div[1]/div[2]/div[3]/div[2]/div[1]/span/span').text
+            price = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div/div[2]/div[1]/div[2]/div[3]/div[2]/div[1]/span/span').text
             price = price.replace("$", "")
         except:
             print("Price not found for - ", url)
@@ -1358,6 +1354,8 @@ def get_info_19(url):
 
 # Functions for Site 20 - "https://cellarbration.com.sg/" -
 
+# Functions for Site 20 - "https://cellarbration.com.sg/" -
+
 def age_verification_20():
     pass
 
@@ -1378,7 +1376,6 @@ def get_info_20(url):
             EC.presence_of_element_located((By.XPATH, '//h1[@class="product-title mt-3"]'))
         )
         productName2 = productName2.text
-        productName2 = productName2.replace("’", "")
     except:
         try:
             productName2 = driver.find_element(By.XPATH, '//*[@id="__next"]/div/div[1]/div[2]/main/div/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/span/span').text
