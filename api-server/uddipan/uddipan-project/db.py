@@ -261,14 +261,13 @@ def search_adv(data, productNameList, vol):
     data1 = sorted(data[0], key=lambda x: x['priority'], reverse=True)
     data = []
     for dt2 in data1:
-        if dt2["Volume"] == '' or dt2["Price"] == '':
+        if dt2["Volume"] == '' or dt2["Price"] == '' or vol not in dt2["Volume"]:
             continue
         else:
             data.append(dt2)
 
     if len(data) > 20:
         data = data[0:20]
-
     try:
         for dt in data:
             dt.pop("priority")
