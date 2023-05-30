@@ -108,7 +108,7 @@ def updateData():
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
-    url = "http://188.166.181.245:3575/updateData"
+    url = "http://143.198.212.125:3580/updateData"
     r = requests.get(url = url, headers={'key': 'MyApiKEy'})
 
     return str(r)
@@ -120,7 +120,7 @@ def stopScrapper():
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
-    url = "http://188.166.181.245:3575/stopScrapper"
+    url = "http://143.198.212.125:3580/stopScrapper"
     r = requests.get(url = url, headers={'key': 'MyApiKEy'})
 
     return  str(r)
@@ -131,7 +131,7 @@ def startScrapperLinks():
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
-    url = "http://188.166.181.245:3575/startScrapperLinks"
+    url = "http://143.198.212.125:3580/startScrapperLinks"
     r = requests.get(url = url, headers={'key': 'MyApiKEy'})
 
     return str(r)
@@ -143,7 +143,7 @@ def stopScrapperLinks():
     valid = isvalid(key)
     if not valid:
         return error("Bad Request", 400)
-    url = "http://188.166.181.245:3575/stopScrapperLinks"
+    url = "http://143.198.212.125:3580/stopScrapperLinks"
     r = requests.get(url = url, headers={'key': 'MyApiKEy'})
 
     return  str(r)
